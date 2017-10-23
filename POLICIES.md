@@ -23,3 +23,7 @@ Any student who is absent from class may risk missing in-class assignments or ex
 ### Learning Accommodations
 
 Any student requiring learning accommodations, such as longer exam periods, must register and coordinate through the university's [Academic Resource Center](https://academicsupport.georgetown.edu/disability).
+
+### Grades
+
+The Dean's office has mandated the maximum mean grade in this course should be 3.5. If this threshold is not met at the end of the semester, the professor reserves the right to curve all grades upward. If this threshold is exceeded at the end of the semester, the professor reserves the right to curve all grades downwards or bump-down the lowest numerical "A" grades to "A-".

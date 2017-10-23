@@ -35,42 +35,44 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
 
 Students are encouraged to consult the official [VBA Language Reference](https://msdn.microsoft.com/en-us/vba/vba-language-reference) and [VBA Office Reference](https://msdn.microsoft.com/en-us/vba/), as well as other online tutorials and resources.
 
+Students may optionally reference books like [Excel VBA Programming For Dummies](https://www.amazon.com/Excel-Programming-Dummies-John-Walkenbach/dp/1118490371), which has been recommended in previous semesters.
+
 ### Computers
 
 Each student should have access to a personal computer during class.
 
-The computer should allow use of MS Excel and ActiveX controls. Students are highly encouraged to use a Windows computer because MS Excel for Mac may not include ActiveX controls.
+The computer should allow use of MS Excel, as well as the Visual Basic for Applications (VBA) programming language and ActiveX controls found inside of MS Excel. Students are highly encouraged to use a Windows computer because MS Excel for Mac may not include ActiveX controls.
 
 Any student who doesn't own a Windows computer may inquire with the technology center about [loaning a laptop](http://technology.msb.edu/pages/Computing.html#EL) or using virtualization software.
 
-## Learning Activities
+## Evaluation
 
-Student performance will be evaluated by assignments and deliverable projects. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted.
+Student performance will be evaluated by assignments and "deliverable" projects. All assignments and projects are due before 11:59pm on the due date specified, unless otherwise noted.
 
 name | weight | due date(s)
 --- | --- | ---
-[Survey](/assignments/survey.md) | 3% | before the beginning of class on 2017-10-24
-[Timesheets](/assignments/timesheets.md) | 14%, or (7 x 2% each) | 2017-10-29, 2017-11-05, 2017-11-12, 2017-11-19, 2017-11-26, 2017-12-03, 2017-12-10
+[Survey](/assignments/survey.md) | 3% | 2017-10-24 (before / during beginning of class)
+[Timesheets](/assignments/timesheets.md) | 14% (2% each) | 2017-10-29, <br> 2017-11-05, <br> 2017-11-12, <br> 2017-11-19, <br> 2017-11-26, <br> 2017-12-03, <br> 2017-12-10
 Project #1 - Savings Model | 25% | 2017-11-07
 Project #2 - Savings System | 25% | 2017-11-23
 [Meetups Assignment](/assignments/meetups.md) | 8% | 2017-12-08
 Project #3 - Cookie System | 25% | 2017-12-12
 
-> NOTE: The Dean's office has mandated the maximum mean grade in this course should be 3.5. If this threshold is not met, the professor reserves the right to curve all grades upward. If this threshold is exceeded, the professor reserves the right to curve all grades downwards.
-
 ## Operations
 
 ### GitHub
 
-The primary source of course information exists in this [GitHub repository](https://github.com/prof-rossetti/georgetown-opim-557-20-201710).
+This [GitHub repository](https://github.com/prof-rossetti/georgetown-opim-557-20-201710) is the primary source of information about this course.
 
-Students should expect to view the course materials online, and may "clone" or download the repository on a periodic basis to access course materials offline.
+However, in many cases, this repository may contain links to Blackboard. And additional proprietary resources are available in Blackboard, such as lecture notes and example files from previous semesters.
 
 ### Blackboard
 
-All Announcements will be sent through Blackboard. See the [Announcements](/announcements) directory for copies of these announcements.
+All Announcements will be sent through Blackboard and archived for reference in the [Announcements](/announcements) directory of this repository.
 
-Assignments and Projects will be submitted through Blackboard.
+All Assignments and Projects will be submitted through Blackboard.
+
+Additional proprietary lecture notes and example files exist in the "Documents > Resources" section of Blackboard.
 
 ### Slack
 
@@ -80,11 +82,11 @@ All students should join the course [Slack team](https://georgetown-opim-557.sla
 
 ### Google Calendar
 
-The [Calendar](https://calendar.google.com/calendar/embed?src=ni1edt66bch74g58tl8dl6hqao%40group.calendar.google.com&ctz=America%2FNew_York) provides an overview of the dates and times when this class meets. It reflects the most up-to-date course scheduling information, including class times, instructor office hours, holidays, and more.
+The [Calendar](https://calendar.google.com/calendar/embed?src=ni1edt66bch74g58tl8dl6hqao%40group.calendar.google.com&ctz=America%2FNew_York) provides an overview of the dates and times when this class meets. It reflects the most up-to-date course scheduling information, including class times, assignment due-dates, instructor office hours, holidays, and more.
 
 ### Schedule
 
-The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will send an announcement.
+The [Schedule](/SCHEDULE.md) lists specific topics and technologies in focus during each class. The schedule is tentative and may change to reflect actual pace of instruction. In the event of a schedule change, the professor will likely send an announcement.
 
 ### Policies
 
