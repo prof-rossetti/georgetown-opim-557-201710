@@ -10,9 +10,9 @@
 
 Search [meetup.com](http://www.meetup.com/) for, or otherwise identify business, startup, and/or technology-related events in the Washington, DC area or some other place near where you live. Focus on data and software-related events if possible. You are encouraged to post links to interesting events in the `#meetups` Slack channel.
 
-Identify and attend one event over the course of the semester.
+Identify and attend one event over the course of the semester to be eligible for an 80%. Attend two events to be eligible for 100%.
 
-Write a short (2-3 page) summary of your experiences,
+For each event, write a short (2-3 page) summary of your experiences,
  to address at least the following questions:
 
  + Which event did you attend, which group(s) hosted it, and what happened?
@@ -23,18 +23,23 @@ Embed photos to provide further evidence of event attendance. A "selfie" should 
 
 ## Submission Instructions
 
-Create a single PDF file containing your write-up and images, and [upload it to Blackboard](#TODO).
+Create a single PDF file containing your write-up(s) and image(s), and [upload it to Blackboard](https://campus.georgetown.edu/webapps/assignment/uploadAssignment?content_id=_4453959_1&course_id=_745457_1&assign_group_id=&mode=cpview).
 
 ## Evaluation Methodology
 
+
 Full credit for submitting a thoughtful response that demonstrates
- evidence of event attendance AND
+ evidence of two event attendances AND
  insights into contemporary business and technology issues and practices.
 
-Else 3/4 credit for submitting a response that demonstrates evidence of event attendance OR
+Else 80% credit for submitting a thoughtful response that demonstrates
+  evidence of one event attendance AND
+  insights into contemporary business and technology issues and practices.
+
+Else 75% credit for submitting a response that demonstrates evidence of event attendance OR
  insights into contemporary business and technology issues and practices.
 
-Else 1/2 credit for submitting a relevant response.
+Else 50% credit for submitting a relevant response.
 
 Else no credit.
 
@@ -43,7 +48,7 @@ Else no credit.
 ## Alternate Assignment - Informational Interviews
 
 If the idea of attending business and technology community events makes you uncomfortable, or if your schedule prohibits you from attending two events before the end of the semester,
- you have another option. You may substitute one meetup event with two informational interviews of some active member within the business and technology community.
+ you have another option. You may substitute one meetup event with two informational interviews of some active member within the business and technology community. Conduct two interviews to be eligible for 80%. Conduct three interviews to be eligible for 100%.
 
 After each interview, write a short (1-2 page) summary of your experiences,
 to address at least the following questions:
