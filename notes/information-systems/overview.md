@@ -16,13 +16,13 @@ Key Terms and Concepts:
   + **Information System**
   + **Information Input**
   + **Information Output**
+  + **Transaction Processing System (TPS)**
+  + **Management Information System (MIS)**
+  + **Decision Support System (DSS)**
   + **Hardware**
   + **Software**
   + **Computer Network**
   + **Database**
-  + **Transaction Processing System (TPS)**
-  + **Management Information System (MIS)**
-  + **Decision Support System (DSS)**
 
 <hr>
 
