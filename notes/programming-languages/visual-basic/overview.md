@@ -4,7 +4,8 @@ Discussion Topics:
 
   + What is Visual Basic for Applications (VBA)?
   + What are the capabilities of VBA? What can it do? How can it provide value for businesses and organizations?
-  + In what situations or environments, or for what project requirements, is VBA the right tool for the job?  
+  + What are the strengths and weaknesses of VBA?
+  + In what situations or environments, or for what project requirements, is VBA the right tool for the job?
   + In what situations or environments, or for what project requirements, might VBA not be the right tool for the job?
 
 ## Excel Objects and Controls
