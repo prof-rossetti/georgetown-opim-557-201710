@@ -10,7 +10,7 @@ Bookmark-worthy Links:
 
   + [Blackboard Course](https://campus.georgetown.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_745457_1&handle=cp_announcements&mode=cpview)
   + [Slack Team](https://georgetown-opim-557.slack.com/)
-  + [Google Calendar](https://calendar.google.com/calendar?cid=bmkxZWR0NjZiY2g3NGc1OHRsOGRsNmhxYW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+  + [Google Calendar](https://calendar.google.com/calendar/embed?src=ni1edt66bch74g58tl8dl6hqao%40group.calendar.google.com&ctz=America%2FNew_York)
   + [GitHub Repository](https://github.com/prof-rossetti/georgetown-opim-557-20-201710)
   + [Timesheets Form](https://goo.gl/forms/9xWp05QximJepQpb2)
 
@@ -33,17 +33,17 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
 
 ### Texts
 
-Students are encouraged to consult the official [VBA Language Reference](https://msdn.microsoft.com/en-us/vba/vba-language-reference) and [VBA Office Reference](https://msdn.microsoft.com/en-us/vba/), as well as other online tutorials and resources.
+Students are encouraged to consult the official [VBA Language Reference](https://msdn.microsoft.com/en-us/vba/vba-language-reference) and [Excel VBA Reference](https://msdn.microsoft.com/en-us/vba/vba-excel), as well as other online tutorials and resources.
 
 Students may optionally reference books like [Excel VBA Programming For Dummies](https://www.amazon.com/Excel-Programming-Dummies-John-Walkenbach/dp/1118490371), which has been recommended in previous semesters.
 
 ### Computers
 
-Each student should have access to a personal computer during class.
+Each student should have access to a personal portable computer during class.
 
 The computer should allow use of MS Excel, as well as the Visual Basic for Applications (VBA) programming language and ActiveX controls found inside of MS Excel. Students are highly encouraged to use a Windows computer because MS Excel for Mac may not include ActiveX controls.
 
-Any student who doesn't own a Windows computer may inquire with the technology center about [loaning a laptop](http://technology.msb.edu/pages/Computing.html#EL) or using virtualization software.
+Any student who doesn't have access to a Windows laptop during class may inquire with the technology center about [loaning a laptop](http://technology.msb.edu/pages/Computing.html#EL) or using virtualization software.
 
 ## Evaluation
 
@@ -54,7 +54,7 @@ name | weight | due date(s)
 [Survey](/assignments/survey.md) | 3% | 2017-10-24 (before / during beginning of class)
 [Timesheets](/assignments/timesheets.md) | 14% (2% each) | 2017-10-29, <br> 2017-11-05, <br> 2017-11-12, <br> 2017-11-19, <br> 2017-11-26, <br> 2017-12-03, <br> 2017-12-10
 Project #1 - Savings Model | 25% | 2017-11-07
-Project #2 - Savings System | 25% | 2017-11-23
+Project #2 - Savings System | 25% | 2017-11-21
 [Meetups Assignment](/assignments/meetups.md) | 8% | 2017-12-08
 Project #3 - Cookie System | 25% | 2017-12-12
 
@@ -63,16 +63,15 @@ Project #3 - Cookie System | 25% | 2017-12-12
 ### GitHub
 
 This [GitHub repository](https://github.com/prof-rossetti/georgetown-opim-557-20-201710) is the primary source of information about this course.
-
-However, in many cases, this repository may contain links to Blackboard. And additional proprietary resources are available in Blackboard, such as lecture notes and example files from previous semesters.
+ However, additional proprietary resources are available in Blackboard, such as lecture notes and example files from previous semesters. When applicable, this repository contains deep-links to pertinent Blackboard content.
 
 ### Blackboard
 
-All Announcements will be sent through Blackboard and archived for reference in the [Announcements](/announcements) directory of this repository.
+Announcements will be sent through Blackboard and archived for reference in the [Announcements](/announcements) directory of this repository.
 
-All Assignments and Projects will be submitted through Blackboard.
+The "Documents > Resources" section of Blackboard contains proprietary lecture notes and example files.
 
-Additional proprietary lecture notes and example files exist in the "Documents > Resources" section of Blackboard.
+All projects will be submitted through Blackboard. All assignment and project grades will be kept in the Blackboard Grade Center.
 
 ### Slack
 
