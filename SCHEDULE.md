@@ -4,8 +4,8 @@ This document lists topics and activities in focus during each class.
 
 class number | day | date | topic(s)
 --- | --- | --- | ---
-1 | Tuesday | 2017-10-24 | Course Operations, Introduction to Decision Support Systems
-2 | Thursday | 2017-10-26 | Development Environment Setup
+1 | Tuesday | 2017-10-24 | [Course Operations](/README.md); [Introduction to Information Systems](/notes/information-systems/overview.md); Example VBA Applications; Choosing the Right Tools
+2 | Thursday | 2017-10-26 | VBA Overview and Development Environment Setup
 3 | Tuesday | 2017-10-31| TBA - ActiveX Controls I
 4 | Thursday | 2017-11-02 | TBA - Visual Basic I
 5 | Tuesday | 2017-11-07 | Student Support Session
