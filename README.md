@@ -10,7 +10,7 @@ Bookmark-worthy Links:
 
   + [Blackboard Course](https://campus.georgetown.edu/webapps/blackboard/execute/announcement?method=search&context=course&course_id=_745457_1&handle=cp_announcements&mode=cpview)
   + [Slack Team](https://georgetown-opim-557.slack.com/)
-  + [Google Calendar](https://calendar.google.com/calendar?cid=bmkxZWR0NjZiY2g3NGc1OHRsOGRsNmhxYW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+  + [Google Calendar](https://calendar.google.com/calendar/embed?src=ni1edt66bch74g58tl8dl6hqao%40group.calendar.google.com&ctz=America%2FNew_York)
   + [GitHub Repository](https://github.com/prof-rossetti/georgetown-opim-557-20-201710)
   + [Timesheets Form](https://goo.gl/forms/9xWp05QximJepQpb2)
 
