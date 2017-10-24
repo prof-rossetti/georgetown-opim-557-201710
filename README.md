@@ -33,7 +33,7 @@ Michael Rossetti ([LinkedIn](https://www.linkedin.com/in/mikerossetti), [GitHub]
 
 ### Texts
 
-Students are encouraged to consult the official [VBA Language Reference](https://msdn.microsoft.com/en-us/vba/vba-language-reference) and [VBA Office Reference](https://msdn.microsoft.com/en-us/vba/), as well as other online tutorials and resources.
+Students are encouraged to consult the official [VBA Language Reference](https://msdn.microsoft.com/en-us/vba/vba-language-reference) and [Excel VBA Reference](https://msdn.microsoft.com/en-us/vba/vba-excel), as well as other online tutorials and resources.
 
 Students may optionally reference books like [Excel VBA Programming For Dummies](https://www.amazon.com/Excel-Programming-Dummies-John-Walkenbach/dp/1118490371), which has been recommended in previous semesters.
 
