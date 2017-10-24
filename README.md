@@ -69,7 +69,7 @@ This [GitHub repository](https://github.com/prof-rossetti/georgetown-opim-557-20
 
 Announcements will be sent through Blackboard and archived for reference in the [Announcements](/announcements) directory of this repository.
 
-The "Documents > Resources" section contains additional proprietary lecture notes and example files.
+The "Documents > Resources" section of Blackboard contains proprietary lecture notes and example files.
 
 All projects will be submitted through Blackboard. All assignment and project grades will be kept in the Blackboard Grade Center.
 
