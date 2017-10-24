@@ -41,7 +41,7 @@ Students may optionally reference books like [Excel VBA Programming For Dummies]
 
 Each student should have access to a personal computer during class.
 
-The computer should allow use of MS Excel, as well as the Visual Basic for Applications (VBA) programming language and ActiveX controls found inside of MS Excel. Students are highly encouraged to use a Windows computer because MS Excel for Mac may not include ActiveX controls.
+The computer should allow use of MS Excel, as well as the Visual Basic for Applications (VBA) programming language and ActiveX controls found inside of MS Excel. Students are highly encouraged to use a Windows computer because MS Excel for Mac may not include ActiveX controls. Students in previous semesters have been mandated to use Windows computers.
 
 Any student who doesn't own a Windows computer may inquire with the technology center about [loaning a laptop](http://technology.msb.edu/pages/Computing.html#EL) or using virtualization software.
 
