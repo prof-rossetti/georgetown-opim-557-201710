@@ -63,16 +63,15 @@ Project #3 - Cookie System | 25% | 2017-12-12
 ### GitHub
 
 This [GitHub repository](https://github.com/prof-rossetti/georgetown-opim-557-20-201710) is the primary source of information about this course.
-
-However, in many cases, this repository may contain links to Blackboard. And additional proprietary resources are available in Blackboard, such as lecture notes and example files from previous semesters.
+ However, additional proprietary resources are available in Blackboard, such as lecture notes and example files from previous semesters. When applicable, this repository contains deep-links to pertinent Blackboard content.
 
 ### Blackboard
 
-All Announcements will be sent through Blackboard and archived for reference in the [Announcements](/announcements) directory of this repository.
+Announcements will be sent through Blackboard and archived for reference in the [Announcements](/announcements) directory of this repository.
 
-All Assignments and Projects will be submitted through Blackboard.
+The "Documents > Resources" section contains additional proprietary lecture notes and example files.
 
-Additional proprietary lecture notes and example files exist in the "Documents > Resources" section of Blackboard.
+All projects will be submitted through Blackboard. All assignment and project grades will be kept in the Blackboard Grade Center.
 
 ### Slack
 
