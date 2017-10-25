@@ -52,12 +52,11 @@ Student performance will be evaluated by assignments and "deliverable" projects.
 name | weight | due date(s)
 --- | --- | ---
 [Survey](/assignments/survey.md) | 3% | 2017-10-24 (before / during beginning of class)
-[Timesheets](/assignments/timesheets.md) | 14% (2% each) | 2017-10-29, <br> 2017-11-05, <br> 2017-11-12, <br> 2017-11-19, <br> 2017-11-26, <br> 2017-12-03, <br> 2017-12-10
+[Timesheets](/assignments/timesheets.md) | 12% (2% each) | 2017-10-29, <br> 2017-11-05, <br> 2017-11-12, <br> 2017-11-19, <br> 2017-11-26, <br> 2017-12-03
 Project #1 - Savings Model | 25% | 2017-11-07
 Project #2 - Savings System | 25% | 2017-11-21
-Project #3 - Cookie System | 25% | 2017-12-08
-[Meetups Assignment](/assignments/meetups.md) | 8% | 2017-12-12
-
+[Meetups Assignment](/assignments/meetups.md) | 10% | 2017-12-01
+Project #3 - Cookie System | 25% | 2017-12-05
 
 ## Operations
 
