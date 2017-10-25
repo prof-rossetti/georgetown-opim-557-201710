@@ -6,6 +6,6 @@ Each week before Sunday at 11:59pm, please take a few moments to fill-out a [tim
 
 ## Evaluation
 
-Seven weekly timesheets are collectively worth 14% towards your final grade.
+Six weekly timesheets are collectively worth 12% towards your final grade.
 
-Each on-time submission counts as 2%.
+Each on-time submission counts as 2%. Each submission late by less than two days counts as 1%.
