@@ -4,7 +4,7 @@
 
 ### Defining Variables
 
-Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to indicate as part of a variable's definition which [type of data](datatypes.md) the variable will hold.
+Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to indicate as part of a variable's definition which [type of data](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types) the variable will hold.
 
 The most common way to define a variable is to use the `Dim` keyword, followed by the variable name, followed by the `as` keyword, followed by the datatype. For example:
 

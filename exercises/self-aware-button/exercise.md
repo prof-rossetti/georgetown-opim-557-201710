@@ -11,7 +11,7 @@
   + [The `MsgBox` Function](/notes/visual-basic/functions/msgbox.md)
   + Declaring and Setting [Variables](/notes/visual-basic/variables.md)
   + Variable Scope
-  + Math Operations
+  + [Math Operations](https://msdn.microsoft.com/en-us/library/aa445143.aspx)
 
 ## Challenge
 
