@@ -61,4 +61,6 @@ Oh Yeah!
 
 ### Counting Clicks
 
-TBA - Define a new integer variable called something like `ClickCount` to store the number of clicks. Each time the button is clicked, increment the value of the variable by one.
+Define a new integer variable (perhaps named `ClickCount`) to store the number of clicks. Each time the button is clicked, increment the value of the variable by one. Include the variable's value in the message box prompt.
+
+[Solution](counting-clicks-solution.md).
