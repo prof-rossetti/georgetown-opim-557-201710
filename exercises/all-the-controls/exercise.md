@@ -40,6 +40,8 @@
   1. Make a `ComboBox` that allows the user to select an option from a provided list and alerts the user when an item is selected.
   1. Make a `ComboBox` that allows the user to select an option from a provided list and alerts the user which item was selected.
 
+![a screenshot of a user selecting an option from a drop-down menu.](/notes/visual-basic/activex-controls/combo-box/combo-box-1.png)
+
 ![a screenshot of a message box displaying the name of an item that has been selected from a drop-down menu. also it displays the selected value in a linked cell.](/notes/visual-basic/activex-controls/combo-box/combo-box-2.png)
 
 ### `ListBox` Challenges
