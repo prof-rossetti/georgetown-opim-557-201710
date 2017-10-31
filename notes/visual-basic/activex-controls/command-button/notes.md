@@ -4,13 +4,13 @@
 
 A button to be clicked.
 
-![a screenshot of an excel worksheet with two buttons which read "Get cell value" and "Set cell value", respectively.](command-button.png)
-
 Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/commandbutton-control).
 
 ### Initialization
 
 "Developer" > "Insert" > "ActiveX Controls" > "Command Button"
+
+![a screenshot of an excel worksheet with two buttons which read "Get cell value" and "Set cell value", respectively.](command-button.png)
 
 ### Properties
 

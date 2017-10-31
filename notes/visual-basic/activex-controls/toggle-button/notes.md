@@ -4,15 +4,15 @@
 
 A button which maintains either a pressed or unpressed state (like a light switch).
 
-![a screenshot of a toggle button in the "off" state.](toggle-button-off.png)
-
-![a screenshot of a toggle button in the "on" state.](toggle-button-on.png)
-
 Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Reference-VBA/articles/togglebutton-control).
 
 ### Initialization
 
 "Developer" > "Insert" > "ActiveX Controls" > "Toggle Button"
+
+![a screenshot of a toggle button in the "off" state.](toggle-button-off.png)
+
+![a screenshot of a toggle button in the "on" state.](toggle-button-on.png)
 
 ### Properties
 
