@@ -5,6 +5,7 @@
   + ["Self-aware Button" Exercise](/exercises/self-aware-button/exercise.md)
   + [Excel Objects Overview](/notes/visual-basic/excel-objects.md)
   + [ActiveX Controls Overview](/notes/visual-basic/activex-controls.md)
+  + [`If ... End If` statements](/notes/visual-basic/conditionals.md)
 
 ## Learning Objectives
 

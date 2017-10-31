@@ -48,6 +48,6 @@ Tutorials:
     + Parameters
     + Return values
   + **Control Flow**
-    + Conditionals (`If`, `Select Case` statements)
+    + [Conditionals](/notes/visual-basic/conditionals.md) (`If`, `Select Case` statements)
     + Loops (`For ... Next`, `For Each ... Next`, and `Do ... Loop` statements)
     + Events
