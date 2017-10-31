@@ -22,4 +22,4 @@ name | description
 
 name | description
 --- | ---
-`Click` | Triggers when the button is clicked.
+`Click` (default) | Triggers when the button is clicked.
