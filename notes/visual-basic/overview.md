@@ -24,15 +24,7 @@ Tutorials:
     + [`Workbook`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/workbook-object-excel)
     + [`Worksheet`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-object-excel)
     + [`Range`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/range-object-excel)
-  + **ActiveX Controls**
-    + `Command Button` (a.k.a "button")
-    + `Combo Box` (a.k.a "dropdown")
-    + `Check Box`
-    + `List Box`
-    + `Scroll Bar`
-    + `Option Button` (a.k.a "radio")
-    + `Toggle Button` (like a check box)
-    + etc ...
+  + [**ActiveX Controls**](activex-controls.md)
 
 ## VBA Language Overview
 
