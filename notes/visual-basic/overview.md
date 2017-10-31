@@ -17,23 +17,6 @@ Tutorials:
 
   + [Getting Started with VBA in Office](https://msdn.microsoft.com/en-us/vba/office-shared-vba/articles/getting-started-with-vba-in-office)
 
-## Excel Objects and Controls
-
-  + **Excel Objects**
-    + [`Application`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/application-object-excel)
-    + [`Workbook`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/workbook-object-excel)
-    + [`Worksheet`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-object-excel)
-    + [`Range`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/range-object-excel)
-  + **ActiveX Controls**
-    + `Command Button` (a.k.a "button")
-    + `Combo Box` (a.k.a "dropdown")
-    + `Check Box`
-    + `List Box`
-    + `Scroll Bar`
-    + `Option Button` (a.k.a "radio")
-    + `Toggle Button` (like a check box)
-    + etc ...
-
 ## VBA Language Overview
 
   + **Development Environment Setup**
@@ -53,6 +36,8 @@ Tutorials:
     + `Boolean`
     + `Array`
     + etc...
+  + [Excel Objects](excel-objects.md)
+  + [ActiveX Controls](activex-controls.md)
   + **Built-in Functions and Methods**
     + [`MsgBox()`](https://msdn.microsoft.com/en-us/library/aa445082.aspx)
     + [`InputBox()`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/application-inputbox-method-excel)
@@ -63,6 +48,6 @@ Tutorials:
     + Parameters
     + Return values
   + **Control Flow**
-    + Conditionals (`If`, `Select Case` statements)
+    + [Conditionals](/notes/visual-basic/conditionals.md) (`If`, `Select Case` statements)
     + Loops (`For ... Next`, `For Each ... Next`, and `Do ... Loop` statements)
     + Events
