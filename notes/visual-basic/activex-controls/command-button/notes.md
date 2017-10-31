@@ -16,7 +16,7 @@ Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Referen
 
 name | description
 --- | ---
-`Caption` | Human-friendly text describing what will happen when the button gets clicked.
+`Caption` | Human-friendly text to instruct the user.
 
 ### Events
 

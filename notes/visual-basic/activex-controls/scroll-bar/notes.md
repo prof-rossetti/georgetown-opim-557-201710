@@ -8,7 +8,7 @@ Reference: [documentation](https://msdn.microsoft.com/en-us/VBA/Language-Referen
 
 ### Initialization
 
-For each box: "Developer" > "Insert" > "ActiveX Controls" > "Scroll Bar".
+"Developer" > "Insert" > "ActiveX Controls" > "Scroll Bar"
 
 ![a screenshot of a horizontally-aligned scroll-bar.](scroll-bar.png)
 
