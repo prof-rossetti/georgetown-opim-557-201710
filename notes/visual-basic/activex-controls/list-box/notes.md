@@ -25,4 +25,4 @@ name | description
 name | description
 --- | ---
 `Click` (default) | Triggers when an option is selected from the from the list.
-`Change` | Triggers when an the control's value is changed.
+`Change` | Triggers when an the control's value is changed. Triggers before the `Click` event in the control's event lifecycle.

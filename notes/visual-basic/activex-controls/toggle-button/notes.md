@@ -27,4 +27,4 @@ name | description
 name | description
 --- | ---
 `Click` (default) | Triggers when the button is pressed or unpressed.
-`Change` | Triggers when the button's value is changed.
+`Change` | Triggers when the button's value is changed. Triggers before the `Click` event in the control's event lifecycle.

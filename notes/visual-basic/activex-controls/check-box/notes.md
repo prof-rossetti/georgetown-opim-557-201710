@@ -16,14 +16,14 @@ For each box: "Developer" > "Insert" > "ActiveX Controls" > "Check Box".
 
 name | description
 --- | ---
-`Caption` | a human-friendly name for the selectable option.
+`Caption` | A human-friendly name for the checkable option.
 `GroupName` | Associates the control with a logical grouping of one or more controls (default: "Sheet1").
-`Value` | The name of the currently-selected list item.
+`Value` | The current state of the control (i.e. `True` if checked, otherwise `False`).
 `LinkedCell` | The address of a specified cell which is bidirectionally associated with control's value.
 
 ### Events
 
 name | description
 --- | ---
-`Click` (default) | Triggers when an option is selected from the from the list.
-`Change` | Triggers when an the control's value is changed.
+`Click` (default) | Triggers when an option is checked.
+`Change` | Triggers when the control's value is changed. Triggers before the `Click` event in the control's event lifecycle.
