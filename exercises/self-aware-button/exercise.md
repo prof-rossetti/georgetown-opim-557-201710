@@ -1,6 +1,8 @@
 # "Self-aware Button" Exercise
 
-## VBA Topics
+## Learning Objectives
+
+Familiarize yourself with some introductory VBA topics:
 
   + Objects, Object Properties, Object-oriented Programming
   + The `CommandButton` ActiveX Control

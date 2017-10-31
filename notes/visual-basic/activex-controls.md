@@ -1,4 +1,6 @@
-# MS Excel ActiveX Controls
+# VBA Language Overview
+
+## MS Excel ActiveX Controls
 
 Popular ActiveX controls include:
 
@@ -18,6 +20,8 @@ name | description
 Each control has a certain set of properties which govern its behavior.
 
 Access any given control's properties from the "Developer" > "Properties" menu.
+
+![a menu depicting a control's properties. on the left are the property names and on the right are their respective values](/notes/visual-basic/activex-controls/command-button/command-button-properties.png)
 
 All controls have a `(Name)` property which uniquely identifies the control by a friendly name. The control's name also acts as the name of a Visual Basic variable which allows programmatic access to the control's properties. When you create a new control of a given type, that control's default name will be the name of the control with an integer suffix (e.g. `CommandButton1`). The names of subsequent controls will increment the integer value (e.g. `CommandButton2` and `CommandButton3`). If you decide to rename a given control, make sure to cascade that name change across all references to that control.
 
