@@ -13,6 +13,7 @@ Dim MyNumber as Integer
 Dim MyText as String
 Dim MyDecimal as Double
 Dim MyBool as Boolean
+Dim MyDate as Date
 ```
 
 After you study [Excel Objects](/notes/visual-basic/excel-objects.md) and [ActiveX Controls](/notes/visual-basic/activex-controls.md), you can store these objects in variables by using the `Set` keyword instead of the `Dim` keyword. Using the `Set` keyword will allow you to simultaneously declare and assign a variable:
@@ -32,6 +33,7 @@ Use an equality operator (`=`) to assign some value to a given variable. For exa
 MyNumber = 25
 MyText = "Hello World"
 MyDecimal = 3.14
+MyDate = #10/31/2017# ' the pound signs surround the date value formatted as MM/DD/YYYY
 ```
 
 ### Referencing Variables

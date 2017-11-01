@@ -28,14 +28,9 @@ Tutorials:
     + Commenting
     + Modules and Scope
     + Error-handling
-  + [**Operators**](https://msdn.microsoft.com/en-us/library/aa338163.aspx)
-  + **Variables**
-  + [**Data Types**](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types)
-    + `Integer`
-    + `String`
-    + `Boolean`
-    + `Array`
-    + etc...
+  + [Operators](https://msdn.microsoft.com/en-us/library/aa338163.aspx)
+  + [Variables](variables.md)
+  + [Data Types](datatypes.md)
   + [Excel Objects](excel-objects.md)
   + [ActiveX Controls](activex-controls.md)
   + **Built-in Functions and Methods**
