@@ -10,8 +10,8 @@ Specifically, the system should
 ## Prerequisites
 
   + ["All the Controls" Exercise](/exercises/all-the-controls/exercise.md) (and all of its prerequisites)
-  + B
-  + C
+  + Control Flow: [Loops](/notes/visual-basic/loops.md)
+  + Data Quality: [Validations](notes/visual-basic/datatypes.md)
 
 ## Learning Objectives
 
@@ -32,17 +32,6 @@ Your system should accept the following inputs:
   + A projected annual growth rate for the client's salary.
   + A projected annual grown rate for the client's savings.
 
-The table below provides a framework for you to translate these information inputs into variables. The min and max variable values are just reasonable suggestions, and in some cases when indicated as being "flexible", can be modified based on your own preference.
-
-info input | suggested variable name | variable datatype | default value | min allowable value | max allowable value
---- | ---  | ---  | ---  | ---  | ---
-Current Age | `Age` | `Integer` | `30` | `18` (you don't give advice to minors) | `60` (flexible)
-Desired Retirement Age | `RetirementAge` | `Integer` | `65` | `35` (flexible) | `80` (flexible)
-Savings Balance | `SavingsBalance` | `Double` | `10000.00` | `0.00` | `60000.00` (flexible)
-Current Salary | `CurrentSalary` | `Double` | `80000.00` | `40000.00` (flexible) | `250000.00` (flexible)
-Annual Salary Growth Rate | `SalaryGrowthRate` | `Double` | `0.03` | `0.00` | `0.15` (flexible)
-Annual Savings Growth Rate | `SavingsGrowthRate` | `Double` | `0.01` (flexible) | `0.005` (flexible) | `0.10` (flexible)
-
 ### Information Outputs
 
 Your system should ____ the following outputs:
@@ -54,7 +43,19 @@ Your system should ____ the following outputs:
 
 This section contains optional instructions to help you get started in planning your system development process.
 
+
 TBA
+
+The table below provides a framework for you to translate these information inputs into variables. The min and max variable values are just reasonable suggestions, and in some cases when indicated as being "flexible", can be modified based on your own preference.
+
+info input | suggested variable name | variable datatype | default value | min allowable value | max allowable value
+--- | ---  | ---  | ---  | ---  | ---
+Current Age | `Age` | `Integer` | `30` | `18` (you don't give advice to minors) | `60` (flexible)
+Desired Retirement Age | `RetirementAge` | `Integer` | `65` | `35` (flexible) | `80` (flexible)
+Savings Balance | `SavingsBalance` | `Double` | `10000.00` | `0.00` | `60000.00` (flexible)
+Current Salary | `CurrentSalary` | `Double` | `80000.00` | `40000.00` (flexible) | `250000.00` (flexible)
+Annual Salary Growth Rate | `SalaryGrowthRate` | `Double` | `0.03` | `0.00` | `0.15` (flexible)
+Annual Savings Growth Rate | `SavingsGrowthRate` | `Double` | `0.01` (flexible) | `0.005` (flexible) | `0.10` (flexible)
 
 ## Submission Instructions
 
