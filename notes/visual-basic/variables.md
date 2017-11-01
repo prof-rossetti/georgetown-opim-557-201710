@@ -15,10 +15,12 @@ Dim MyDecimal as Double
 Dim MyBool as Boolean
 ```
 
-After you study Excel Objects and ActiveX Controls, you can dynamically store them in variables by using the `Set` keyword instead of the `Dim` keyword:
+After you study [Excel Objects](/notes/visual-basic/excel-objects.md) and [ActiveX Controls](/notes/visual-basic/activex-controls.md), you can store these objects in variables by using the `Set` keyword instead of the `Dim` keyword. Using the `Set` keyword will allow you to simultaneously declare and assign a variable:
 
 ```vb
-Set MySheet = Application.ActiveSheet ' note: in addition to defining the variable, this also assigns it a value
+Set MySheet = Application.ActiveSheet
+
+Set MyCell = Range("C5")
 ```
 
 ### Assigning Values to Variables
@@ -34,7 +36,7 @@ MyDecimal = 3.14
 
 ### Referencing Variables
 
-After variables are defined and assigned, any subsequent references to the variable name will yield the variable's value:
+After variables are defined and assigned (see above code), any subsequent references to the variable name will yield the variable's value:
 
 ```vb
 "All I have to say is: " & MyText ` --> "All I have to say is: Hello World"
