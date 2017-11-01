@@ -3,7 +3,7 @@
 ## Datatypes
 
   + `Integer`
-  + [`String`](datatypes/string.md)
+  + [`String`](datatypes/strings.md)
   + `Boolean`
   + `Date`
   + `Array`
