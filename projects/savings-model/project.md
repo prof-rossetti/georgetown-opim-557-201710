@@ -9,8 +9,8 @@ Specifically, the system should accept a number of information inputs representi
 ## Prerequisites
 
   + ["All the Controls" Exercise](/exercises/all-the-controls/exercise.md) (and all of its prerequisites)
-  + Control Flow - [Loops](/notes/visual-basic/loops.md)
   + Data Quality - [Validations](notes/visual-basic/datatypes.md)
+  + Control Flow - [Loops](/notes/visual-basic/loops.md) and [Error-handling](/notes/visual-basic/error-handling.md)
 
 ## Learning Objectives
 
@@ -64,9 +64,11 @@ Regardless of how you choose to capture user inputs, make sure the user sees onl
 
 Use an ActiveX `CommandButton` that when clicked will read and validate the inputs, perform the calculations, and produce the outputs.
 
+## Validation Requirements
 
+Prevent the user from inputting invalid values (i.e. entering a value of the wrong data type, entering a value outside of a reasonable range of accepted values, etc.).
 
-
+If a user enters an invalid input, exit from the program and display a friendly message describing what went wrong and how the user can fix the problem.
 
 
 
