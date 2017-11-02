@@ -11,6 +11,7 @@ Specifically, the system should accept a number of information inputs representi
 ## Prerequisites
 
   + ["All the Controls" Exercise](/exercises/all-the-controls/exercise.md) (and all of its prerequisites)
+  + [The `InputBox` function](/notes/visual-basic/functions/input-box.md)
   + Data Quality - [Validations](notes/visual-basic/datatypes.md)
   + Control Flow - [Loops](/notes/visual-basic/loops.md) and [Error-handling](/notes/visual-basic/error-handling.md)
 
@@ -41,7 +42,7 @@ Your system should accept the following user inputs:
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
 info input | suggested variable name | variable datatype | example value
---- | ---  | ---  | ---  | ---  | ---
+--- | ---  | ---  | ---
 Current Age | `Age` | `Integer` | `60`
 Desired Retirement Age | `RetirementAge` | `Integer` | `65`
 Initial Savings Balance | `SavingsBalance` | `Double` | `50000.00`
@@ -59,7 +60,7 @@ Your system should produce the following outputs:
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
 info output | suggested variable name | variable datatype | example value
---- | ---  | ---  | ---  | ---  | ---
+--- | ---  | ---  | ---
 Final Savings Balance | `SavingsBalance` (a modified, incremented, final version) | `Double` | `189439.21`
 Total Savings Contribution | `TotalContribution` | `Double` | `158000.00`
 Total Interest Accrued | `InterestAccrued` | `Double` | `31439.21`
@@ -94,19 +95,19 @@ The figure below depicts an example of the system's desired calculations. It is 
 
 ### Annual Calculations
 
-The **savings balance** at the end of any given year is equal to the initial savings balance for that year, plus the amount of **accrued interest** for that year, plus the **end-of-year contribution**.
+The savings balance at the end of any given year is equal to the initial savings balance for that year, plus the amount of accrued interest for that year, plus the end-of-year contribution.
 
-The amount of **accrued interest** for any given year is equal to the **initial savings balance** for that year times the **annual interest rate**. Note: the **end-of-year contribution** does not accrue interest during the year it is contributed.
+The amount of accrued interest for any given year is equal to the initial savings balance for that year times the annual interest rate. Note: the end-of-year contribution does not accrue interest during the year it is contributed.
 
-The **initial savings balance** for any given year is equal to the ending savings balance from the previous year.
+The initial savings balance for any given year is equal to the ending savings balance from the previous year.
 
 ### Final Outputs
 
-The **final savings balance** output by the system should reflect the balance at the end of the year when the client hits the desired retirement age. For example, if the desired retirement age is 65, the program should output the savings balance at the end of that year, after that year's interest accrual and savings contribution are entered into that year's calculations (see "Annual Calculations" above).
+The final savings balance output by the system should reflect the balance at the end of the year when the client hits the desired retirement age. For example, if the desired retirement age is 65, the program should output the savings balance at the end of that year, after that year's interest accrual and savings contribution are entered into that year's calculations (see "Annual Calculations" above).
 
-The **final amount of interest accrued** is equal to the sum of interest accrued during each year.
+The final amount of interest accrued is equal to the sum of interest accrued during each year.
 
-The **final amount of principal contributed** is equal to the very first savings balance input by the user, plus the sum of all end-of-year contributions. The amount of principal is also alternatively equal to the final savings balance, less the final amount of accrued interest.
+The final amount of principal contributed is equal to the very first savings balance input by the user, plus the sum of all end-of-year contributions. The amount of principal is also alternatively equal to the final savings balance, less the final amount of accrued interest.
 
 
 
