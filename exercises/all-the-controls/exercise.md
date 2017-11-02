@@ -8,6 +8,10 @@
   + [The `String` Datatype](/notes/visual-basic/datatypes/strings.md)
   + [`If ... End If` statements](/notes/visual-basic/conditionals.md)
 
+See also:
+
+  + [The `InputBox` function](/notes/visual-basic/functions/input-box.md)
+
 ## Learning Objectives
 
   + Initialize and configure the most popular ActiveX Controls.
