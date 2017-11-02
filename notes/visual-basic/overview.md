@@ -34,8 +34,8 @@ Tutorials:
   + [Excel Objects](excel-objects.md)
   + [ActiveX Controls](activex-controls.md)
   + **Built-in Functions and Methods**
-    + [`MsgBox()`](https://msdn.microsoft.com/en-us/library/aa445082.aspx)
-    + [`InputBox()`](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/application-inputbox-method-excel)
+    + [`MsgBox()`](/notes/visual-basic/functions/msg-box.md)
+    + [`InputBox()`](/notes/visual-basic/functions/input-box.md)
     + [Math Functions](https://msdn.microsoft.com/en-us/library/aa445143.aspx)
     + [`Format()`](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/format-function-visual-basic-for-applications)
   + **Custom Functions**
