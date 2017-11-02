@@ -1,4 +1,6 @@
-# Project 1 - Savings Model
+# Project 1 - Retirement Savings Calculator
+
+> Adapted from a deliverable created by Professor Dillon-Merrill.
 
 You own and operate a financial planning business which helps customers plan for retirement.
 
