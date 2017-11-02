@@ -45,7 +45,7 @@ info input | suggested variable name | variable datatype | example value
 --- | ---  | ---  | ---
 Current Age | `Age` | `Integer` | `60`
 Desired Retirement Age | `RetirementAge` | `Integer` | `65`
-Initial Savings Balance | `SavingsBalance` | `Double` | `50000.00`
+Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
 Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
 
@@ -61,7 +61,7 @@ The table below provides a framework for you to translate these information inpu
 
 info output | suggested variable name | variable datatype | example value
 --- | ---  | ---  | ---
-Final Savings Balance | `SavingsBalance` (a modified, incremented, final version) | `Double` | `189439.21`
+Final Savings Balance | `SavingsBalance` | `Double` | `189439.21`
 Total Savings Contribution | `TotalContribution` | `Double` | `158000.00`
 Total Interest Accrued | `InterestAccrued` | `Double` | `31439.21`
 
@@ -75,7 +75,7 @@ Use cells and/or input boxes and/or ActiveX Controls to capture user inputs. You
 
 Regardless of how you choose to capture user inputs, make sure the user sees only properly-formatted values. Rates should be formatted with a percent sign (`%`) and dollar amounts should be formatted as USD with a dollar sign (`$`) and two decimal places.
 
-Use an ActiveX `CommandButton` that when clicked will read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
+Use an ActiveX `CommandButton` control that when clicked will read and validate the inputs, perform the calculations, and produce the outputs. Outputs should also be properly formatted (see above).
 
 The figure below depicts an example interface:
 
@@ -103,7 +103,7 @@ The initial savings balance for any given year is equal to the ending savings ba
 
 ### Final Outputs
 
-The final savings balance output by the system should reflect the balance at the end of the year when the client hits the desired retirement age. For example, if the desired retirement age is 65, the program should output the savings balance at the end of that year, after that year's interest accrual and savings contribution are entered into that year's calculations (see "Annual Calculations" above).
+The final savings balance output by the system should reflect the balance at the end of the year when the client hits the desired retirement age. For example, if the desired retirement age is 65, the program should output the savings balance at the end of that year, after that year's interest accrual and savings contribution are calculated (see "Annual Calculations" above).
 
 The final amount of interest accrued is equal to the sum of interest accrued during each year.
 
