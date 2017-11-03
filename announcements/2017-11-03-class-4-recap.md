@@ -2,7 +2,7 @@
 
 Hello students,
 
-Thanks for another fun class this morning.
+Thanks for another fun class yesterday.
 
 We spent most of class sharing solutions to the ["All the ActiveX Controls" exercise](https://github.com/prof-rossetti/georgetown-opim-557-20-201710/blob/master/exercises/all-the-controls/exercise.md). Thanks again to all of you who contributed! I posted a workbook of your solutions and a workbook of my solutions to the `#557` channel on Slack. You'll notice there are a few different ways to solve the challenges, so don't worry if yours looks different.
 
