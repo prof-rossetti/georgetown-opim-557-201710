@@ -12,7 +12,7 @@ Specifically, the system should accept a number of information inputs representi
 
   + ["All the Controls" Exercise](/exercises/all-the-controls/exercise.md) (and all of its prerequisites)
   + [The `InputBox` function](/notes/visual-basic/functions/input-box.md)
-  + Data Quality - [Validations](notes/visual-basic/datatypes.md)
+  + Data Quality - [Validations](/notes/visual-basic/datatypes.md#checking-a-variables-type)
   + Control Flow - [Loops](/notes/visual-basic/loops.md) and [Error-handling](/notes/visual-basic/error-handling.md)
 
 ## Learning Objectives
