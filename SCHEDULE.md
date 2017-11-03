@@ -9,7 +9,7 @@ class | day | date | topic(s)
 3 | Tuesday | 2017-10-31 | [Excel Objects Overview](/notes/visual-basic/excel-objects.md); <br> [ActiveX Controls Overview](/notes/visual-basic/activex-controls.md); <br> ["All the ActiveX Controls" Exercise](/exercises/all-the-controls/exercise.md)
 4 | Thursday | 2017-11-02 | ["All the ActiveX Controls" Exercise (cont'd)](/exercises/all-the-controls/exercise.md); <br> Intro to [Project 1](/projects/savings-calculator/project.md)
 5 | Tuesday | 2017-11-07 | Loops; <br> Validations; <br> Project #1 Support
-6 | Thursday | 2017-11-09 | Project 1 Support
+6 | Thursday | 2017-11-09 | Functions; <br> Project 1 Support
 7 | Tuesday | 2017-11-14 | Intro to Project 2
 8 | Thursday | 2017-11-16 | Project 2 Support
 9 | Tuesday | 2017-11-21 | Project 3 Introduction; <br> Decision Theory, Sensitivity Analysis
