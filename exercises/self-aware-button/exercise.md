@@ -6,7 +6,7 @@ Familiarize yourself with some introductory VBA topics:
 
   + Objects, Object Properties, Object-oriented Programming
   + The `CommandButton` ActiveX Control
-  + Defining and Invoking [Functions](/notes/visual-basic/functions.md)
+  + Defining and Invoking [Sub-procedures](/notes/visual-basic/sub-procedures.md)
   + [Comments](/notes/visual-basic/comments.md)
   + Function Scope
   + ActiveX Control `_Click()` Functions
