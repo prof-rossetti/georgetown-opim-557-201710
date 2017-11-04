@@ -16,11 +16,9 @@ Use collections to reference a specific excel object by its identifying characte
 You can specify absolute object references:
 
 ```vb
-Application.Workbooks("my-book.xlsm") ' specify the workbook's file name
+Worksheets("Sheet1") ' specify the sheet name
 
-Application.Workbooks("my-book.xlsm").Worksheets("Sheet1") ' specify the sheet name
-
-Application.Workbooks("my-book.xlsm").Worksheets("Sheet1").Range("A1:C5") ' specify the address of a range of cells
+Worksheets("Sheet1").Range("A1:C5") ' specify the address of a range of cells
 ```
 
 More commonly you can specify object references relative to the active workbook or worksheet:
@@ -35,13 +33,9 @@ Range("A1:C5")
 
 The `Range` Object represents one or more cells.
 
-#### Example Code
+#### Helpful Range Properties
 
-Clear the contents of some range:
-
-```vb
-Range("A1:C5").ClearContents
-```
+##### Reading Cell Values
 
 Read the value of a cell:
 
@@ -51,15 +45,26 @@ MyVar = Range("A1").Value
 MsgBox("The value in cell A1 is: " & MyVar)
 ```
 
+Alternative approach to referencing cell properties:
+
+```vb
+Dim MyCell As Range
+Set MyCell = Range("A1")
+MsgBox("The value in cell " & MyCell.Address & " is: " & MyCell.Value)
+```
+
+##### Writing Cell Values
+
 Write a value to a cell:
 
 ```vb
 Range("A1").Value = "fun times"
 ```
 
-Alternative approach to referencing cell properties:
+##### Clearing Cell Contents
+
+Clear the contents of some range:
 
 ```vb
-Set MyCell = Range("A1") ' important to use Set instead of Dim here
-MsgBox("The value in cell " & MyCell.Address & " is: " & MyCell.Value)
+Range("A1:C5").ClearContents
 ```

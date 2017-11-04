@@ -11,7 +11,7 @@ Familiarize yourself with some introductory VBA topics:
   + Function Scope
   + ActiveX Control `_Click()` Functions
   + [The `MsgBox` Function](/notes/visual-basic/functions/msg-box.md)
-  + Declaring and Setting [Variables](/notes/visual-basic/variables.md)
+  + Declaring and Assigning [Variables](/notes/visual-basic/variables.md)
   + Variable Scope
   + [Math Operations](https://msdn.microsoft.com/en-us/library/aa445143.aspx)
 

@@ -2,6 +2,8 @@
 
 ## Datatypes
 
+Reference: [documentation](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/data-types).
+
   + `Integer`
   + [`String`](datatypes/strings.md)
   + `Boolean`
