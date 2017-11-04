@@ -14,7 +14,7 @@ Whereas the responsibility of a sub-procedure can be to perform some action (lik
 
 ```vb
 Private Function MyMessage()
-  MyMessage = "Hello World"
+  MyMessage = "My message is: Hello World"
 End Function
 ```
 
@@ -29,6 +29,12 @@ Also note the trailing parentheses in the function's name. They not only visuall
 When necessary and appropriate, specify zero or more arguments (a.k.a. "parameters"), inside the parentheses part of the function definition.
 
 ```vb
+Private Function CustomMessage(ByVal SomeMessage As String)
+  CustomMessage = "The custom message is: " & SomeMessage
+End Function
+```
+
+```vb
 Private Function RectangleArea(ByVal Length As Integer, ByVal Width As Integer)
   RectangleArea = Length * Width
 End Function
@@ -41,9 +47,17 @@ These defined parameters represent variable values that are expected to be passe
 The code inside a function won't execute until/unless invoked. Invoke a function by referencing its name.
 
 ```vb
-MyMessage() ' --> "Hello World"
+MyMessage() ' --> "My message is: Hello World"
+```
+
+```vb
+CustomMessage("Hello World") ' --> "The custom message is: Hello World"
+
+CustomMessage("Goodbye") ' --> "The custom message is: Goodbye"
 ```
 
 ```vb
 RectangeArea(10, 7) ' --> 70
+
+RectangeArea(2, 3) ' --> 6
 ```

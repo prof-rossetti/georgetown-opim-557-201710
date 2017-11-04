@@ -17,8 +17,8 @@ End Sub
 ```
 
 ```vb
-Private Sub DisplayMessage()
-  MsgBox("Hello World")
+Private Sub DisplayMyMessage()
+  MsgBox("My message is: Hello World")
 End Sub
 ```
 
@@ -31,8 +31,8 @@ Note the trailing parentheses in the sub-procedure's name. They not only visuall
 When necessary and appropriate, specify zero or more arguments (a.k.a. "parameters"), inside the parentheses part of the sub-procedure definition. The syntax for defining parameters is similar to the syntax for declaring variables, except a different keyword is used (either `ByVal` or `ByRef`).
 
 ```vb
-Private Sub DisplayCustomMessage(ByVal CustomMessage As String)
-  MsgBox(CustomMessage)
+Private Sub DisplayCustomMessage(ByVal SomeMessage As String)
+  MsgBox("The custom message is: " & SomeMessage)
 End Sub
 ```
 
@@ -45,11 +45,11 @@ The code inside a sub-procedure won't execute until/unless invoked. Sub-procedur
 However, you can also invoke a sub-procedure programmatically by using the `Call` keyword, followed by the name of the sub-procedure:
 
 ```vb
-Call DisplayMessage ' --> "Hello World"
+Call DisplayMyMessage ' --> a message box pops up with the content... "My message is: Hello World"
 ```
 
 ```vb
-Call DisplayCustomMessage("Hello World") ' --> "Hello World"
+Call DisplayCustomMessage("Hello World") ' --> a message box pops up with the content... "The custom message is: Hello World"
 
-Call DisplayCustomMessage("Goodbye") ' --> "Goodbye"
+Call DisplayCustomMessage("Goodbye") ' --> a message box pops up with the content... "The custom message is: Goodbye"
 ```
