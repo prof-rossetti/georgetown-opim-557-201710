@@ -24,6 +24,8 @@ End Sub
 
 Sub-procedure definitions begin with the statement `Private Sub`, followed on the same line by the name of the sub-procedure (in this case `DisplayMyMessage()`), followed by one or more lines of indented code, and finally concluding with the statement `End Sub`.
 
+To programmatically exit from a sub-procedure, use the statement `Exit Sub`.
+
 Note the trailing parentheses in the sub-procedure's name. They not only visually indicate this statement is a procedure, but they also serve as a space to pass parameters (see below).
 
 #### Defining Sub-procedures with Parameters
