@@ -57,7 +57,7 @@ This kind of loop will repeat a statement a specific amount of times. The counte
 ```vba
 Dim Counter As Integer
 
-For Counter = 1 To 5
+For Counter = 1 To 5 ' specify the number of times this loop will repeat
   MsgBox("The counter's value is currently: " & Counter)
 Next Counter ' increment the Counter's value and execute the next iteration
 ```
