@@ -22,13 +22,13 @@ Private Sub DisplayMyMessage()
 End Sub
 ```
 
-Sub-procedure definitions begin with the statement `Private Sub`, followed on the same line by the name of the sub-procedure (in this case `DisplayMessage()`), followed by one or more lines of indented code, and finally concluding with the statement `End Sub`.
+Sub-procedure definitions begin with the statement `Private Sub`, followed on the same line by the name of the sub-procedure (in this case `DisplayMyMessage()`), followed by one or more lines of indented code, and finally concluding with the statement `End Sub`.
 
 Note the trailing parentheses in the sub-procedure's name. They not only visually indicate this statement is a procedure, but they also serve as a space to pass parameters (see below).
 
 #### Defining Sub-procedures with Parameters
 
-When necessary and appropriate, specify zero or more arguments (a.k.a. "parameters"), inside the parentheses part of the sub-procedure definition. The syntax for defining parameters is similar to the syntax for declaring variables, except a different keyword is used (either `ByVal` or `ByRef`).
+When necessary and appropriate, specify one or more arguments (a.k.a. "parameters"), inside the parentheses part of the sub-procedure definition. The syntax for defining parameters is similar to the syntax for declaring variables, except a different keyword is used (either `ByVal` or `ByRef`). Use `ByVal` in most cases, but use `ByRef` if you need changes to the parameter to remain in memory after the function has finished execution.
 
 ```vb
 Private Sub DisplayCustomMessage(ByVal SomeMessage As String)
@@ -36,7 +36,7 @@ Private Sub DisplayCustomMessage(ByVal SomeMessage As String)
 End Sub
 ```
 
-These defined parameters represent variable values that are expected to be passed to the function when it is invoked.
+These defined parameters represent variable values that are expected to be passed to the sub-procedure when it is invoked.
 
 ### Invoking Sub-procedures
 

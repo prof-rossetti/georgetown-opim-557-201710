@@ -26,7 +26,7 @@ Dim MyCell As Range
 
 ### Assigning Values to Variables
 
-Use an equality operator (`=`) to assign some value (on the right side of the `=`) to a given variable (on the left side of the `=`). For example:
+Use an equality operator (`=`) to assign some value on the right side of the `=` to a given variable on the left side of the `=`. For example:
 
 ```vb
 MyNumber = 25
