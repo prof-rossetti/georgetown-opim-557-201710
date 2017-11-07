@@ -7,7 +7,8 @@ It assumes you have already configured your desired user interface.
 ## Checkpoint 1: Capture and Display Inputs
 
   1. Capture user inputs and display them in a message box.
-  2. After demonstrating your ability to display raw input values in a message box, format currency and percentage values as applicable.
+  2. After demonstrating your ability to display raw input values in a message box, format currency and percentage values as applicable. Don't worry if at this point you are writing the same formatting-related snippet of code in multiple places. The next step is about simplifying, or "refactoring" the code to remove such duplication.
+  3. You are encouraged but not required to define one or more custom functions to perform the numeric formatting. Hint: you will need to pass the number as a parameter when invoking the function(s).
 
 ## Checkpoint 2: Display Outputs
 
