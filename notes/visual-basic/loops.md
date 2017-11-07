@@ -66,6 +66,17 @@ Next Counter ' increment the Counter's value and execute the next iteration
 
 This kind of loop will iterate over each object in a collection of objects. Examples of collections include a [range](/notes/visual-basic/excel-objects.md#the-range-object) of cell objects, as well as an [array](/notes/visual-basic/datatypes/arrays.md) of items.
 
+```vb
+Dim MyCell As Range
+Dim MyRange As Range
+
+Set MyRange = Range("A1:C5")
+
+For Each MyCell in MyRange.Cells
+  MyCell.Value = MyCell.Address ' an example of something to do with MyCell
+Next
+```
+
 ```vba
 Dim Teams(1 To 5) As String
 

@@ -69,7 +69,7 @@ Clear the contents of some range:
 Range("A1:C5").ClearContents
 ```
 
-###### Cells in a Range
+##### Cells in a Range
 
 Access all cells in a given range:
 
@@ -77,15 +77,4 @@ Access all cells in a given range:
 Range("A1:C5").Cells.Count ' --> 15
 ```
 
-After studying loops, you can use one to iterate through all cells in a given range:
-
-```vb
-Dim MyCell As Range
-Dim MyRange As Range
-
-Set MyRange = Range("A1:C5")
-
-For Each MyCell in MyRange.Cells
-  MyCell.Value = MyCell.Address ' an example of something to do with MyCell
-Next
-```
+After studying [loops](/notes/visual-basic/loops.md#for-each--next-loops), you can use one to iterate through all cells in a given range.
