@@ -17,7 +17,7 @@ In VBA, there are four kinds of loops:
 
   + `Do While ... Loop`: Repeat a statement as long as a condition is true.
   + `Do Until ... Loop`: Repeat a statement until a condition is true.
-  + `For ... Next`: Use a built-in counter to repeat a statement a specified number of times.
+  + `For ... Next`: Repeat a statement a specified number of times.
   + `For Each ... Next`: Repeat a statement for each object in a collection of objects.
 
 To programmatically exit from a `Do` loop, use the statement `Exit Do`. To programmatically exit from a `For` loop, use the statement `Exit For`. To manually exit a loop, for example if you get stuck in an infinite loop, press and hold the "Escape" key to exit the program.
