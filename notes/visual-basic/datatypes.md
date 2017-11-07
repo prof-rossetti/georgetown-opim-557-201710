@@ -11,7 +11,7 @@ Popular datatypes include:
   + `Double` - a decimal number
   + `Boolean` - true or false
   + `Date` - a calendar date
-  + `Array` - an ordered collection of items
+  + [`Array`](datatypes/arrays.md) - an ordered collection of items
 
 You can also think about each [Excel Object](/notes/visual-basic/excel-objects.md) as belonging to its own datatype.
 
