@@ -19,7 +19,7 @@ You can also think about each [Excel Object](/notes/visual-basic/excel-objects.m
 
 Visual Basic supports a number of built-in functions to detect the datatype of any variable. These functions are especially helpful when validating user inputs.
 
-[The `TypeName()` function and `TypeOf ... Is` statement](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/early-late-binding/determining-object-type) returns a String value to indicate the datatype.
+[The `TypeName()` function](https://docs.microsoft.com/en-us/dotnet/visual-basic/programming-guide/language-features/early-late-binding/determining-object-type) returns a String value to indicate a variable's datatype.
 
 ```vb
 TypeName(1) ' --> "Integer"
