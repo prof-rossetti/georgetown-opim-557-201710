@@ -25,7 +25,7 @@ Tutorials:
     + Accessing underlying VBA code
     + Accessing Object Properties
     + Debugging
-    + Commenting
+    + [Commenting](comments.md)
     + Modules and Scope
     + Error-handling
   + [Operators](https://msdn.microsoft.com/en-us/library/aa338163.aspx)
@@ -34,15 +34,12 @@ Tutorials:
   + [Excel Objects](excel-objects.md)
   + [ActiveX Controls](activex-controls.md)
   + **Built-in Functions and Methods**
-    + [`MsgBox()`](/notes/visual-basic/functions/msg-box.md)
-    + [`InputBox()`](/notes/visual-basic/functions/input-box.md)
+    + [`MsgBox()`](functions/msg-box.md)
+    + [`InputBox()`](functions/input-box.md)
     + [Math Functions](https://msdn.microsoft.com/en-us/library/aa445143.aspx)
     + [`Format()`](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/format-function-visual-basic-for-applications)
-  + **Custom Functions**
-    + Function Scope
-    + Parameters
-    + Return values
+  + [Sub-procedures](sub-procedures.md) and [Functions](functions.md)
   + **Control Flow**
-    + [Conditionals](/notes/visual-basic/conditionals.md) (`If`, `Select Case` statements)
-    + Loops (`For ... Next`, `For Each ... Next`, and `Do ... Loop` statements)
+    + [Conditionals](conditionals.md)
+    + [Loops](loops.md)
     + Events
