@@ -29,4 +29,4 @@ Teams(5) = "Washington Nationals"
 MsgBox( Teams(4) ) ' --> a message box displaying "New Haven Ravens"
 ```
 
-See also: [looping](/notes/visual-basic/loops.md) through each item in an array.
+See also: [looping](/notes/visual-basic/loops.md#for-each--next-loops) through each item in an array.
