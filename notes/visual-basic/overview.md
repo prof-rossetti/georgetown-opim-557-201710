@@ -27,7 +27,7 @@ Tutorials:
     + Debugging
     + [Commenting](comments.md)
     + Modules and Scope
-    + Error-handling
+    + [Error-handling](error-handling.md)
   + [Operators](https://msdn.microsoft.com/en-us/library/aa338163.aspx)
   + [Variables](variables.md)
   + [Data Types](datatypes.md)
