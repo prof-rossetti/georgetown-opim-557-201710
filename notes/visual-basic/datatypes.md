@@ -90,14 +90,16 @@ By default, any numeric value entered into a cell is automatically treated by VB
 One solution for detecting whether a cell value is really an `Integer` is to use the `INT()` function to convert its value to an `Integer`, and then compare the resulting value with the original value. If the original value and the integer-converted-value are equal, then we know the original value is an `Integer` datatype.
 
 ```vb
-Dim MyVar ' omit datatype specification to prevent cell value from being converted when assigned
-MyVar = Range("D17").Value
+Private Sub CommandButton2_Click()
+    Dim MyVar ' omit datatype specification to prevent cell value from being converted when assigned
+    MyVar = Range("D17").Value
 
-If Int(MyVar) = MyVar Then ' check if an integer-converted-value is the same as the original value
-    MsgBox ("The cell value is an integer")
-Else
-    MsgBox ("The cell value is not an integer")
-End If
+    If Int(MyVar) = MyVar Then ' check if an integer-converted-value is the same as the original value
+        MsgBox ("The cell value is an integer")
+    Else
+        MsgBox ("The cell value is not an integer")
+    End If
+End Sub
 ```
 
 ![a screenshot of a cell value of 6 and a message box that reads "The cell value is an integer" ](datatypes/cell-value-integer-detection-affirmative.png)
