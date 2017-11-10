@@ -61,3 +61,24 @@ IsNumeric("1") ' --> True
 IsNumeric("3.14") ' --> True
 IsNumeric("Hello") ' --> False
 ```
+
+### Static Typing
+
+One practical affect of specifying datatypes during variable declaration (a.k.a. "static-typing") is that VBA will try to convert an assigned value to the declared datatype if possible. This may be helpful in some cases, but detrimental in other cases.
+
+```vb
+Private Sub CommandButton1_Click()
+    Dim MyInt As Integer ' note the specified datatype
+    Dim MyVar ' note the omitted datatype
+
+    MyInt = Range("B4").Value ' because we declared an integer datatype above, this assignment will convert the value to an integer
+    MyVar = Range("B4").Value
+
+    MsgBox ("Raw cell value is: " & Range("B4").Value & " (" & TypeName(Range("B4").Value) & ")." & vbNewLine & _
+            "Value when assigned to variable with declared integer datatype is: " & MyInt & " (" & TypeName(MyInt) & ")." & vbNewLine & _
+            "Value when assigned to variable without a declared datatype is: " & MyVar & " (" & TypeName(MyVar) & ")." _
+    )
+End Sub
+```
+
+![a message box showing the raw value as 12.345 (Double), the value when assigned to an integer variable as 12.345 (Integer), and the value when assigned to a variable with non-declared dataype is 12.345 (Double)](datatypes/datatype-checking.png)
