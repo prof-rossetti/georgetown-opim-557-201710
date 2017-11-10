@@ -82,3 +82,26 @@ End Sub
 ```
 
 ![a message box showing the raw value as 12.345 (Double), the value when assigned to an integer variable as 12.345 (Integer), and the value when assigned to a variable with non-declared dataype is 12.345 (Double)](datatypes/datatype-checking.png)
+
+### Datatypes of Numeric Cell Values
+
+By default, any numeric value entered into a cell is automatically treated by VBA as being a `Double` datatype, even if the value looks like an `Integer` datatype (e.g. the number `6`). This behavior is not intuitive, and can make it more difficult to use the aforementioned datatype-checking functions to distinguish between `Double` and `Integer` cell values while at the same time preventing the values from being converted during variable assignment.
+
+One solution for detecting whether a cell value is really an `Integer` is to use the `INT()` function to convert its value to an `Integer`, and then compare the resulting value with the original value. If the original value and the integer-converted-value are equal, then we know the original value is an `Integer` datatype.
+
+```vb
+Private Sub CommandButton2_Click()
+    Dim MyVar ' omit datatype specification to prevent cell value from being converted when assigned
+    MyVar = Range("D17").Value
+
+    If Int(MyVar) = MyVar Then ' check if an integer-converted-value is the same as the original value
+        MsgBox ("The cell value is an integer")
+    Else
+        MsgBox ("The cell value is not an integer")
+    End If
+End Sub
+```
+
+![a screenshot of a cell value of 6 and a message box that reads "The cell value is an integer" ](datatypes/cell-value-integer-detection-affirmative.png)
+
+![a screenshot of a cell value of 8.8 and a message box that reads "The cell value is not an integer"](datatypes/cell-value-integer-detection-negative.png)
