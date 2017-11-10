@@ -105,3 +105,12 @@ End Sub
 ![a screenshot of a cell value of 6 and a message box that reads "The cell value is an integer" ](datatypes/cell-value-integer-detection-affirmative.png)
 
 ![a screenshot of a cell value of 8.8 and a message box that reads "The cell value is not an integer"](datatypes/cell-value-integer-detection-negative.png)
+
+### Datatypes of `InputBox` Values
+
+When you use an `InputBox` to capture a user input, beware the default datatype of the resulting value will be a `String`. If you would like to change the default datatype to be numeric, pass a `Type` parameter value of `1` and the resulting value will instead be a `Double`:
+
+```vb
+Dim MyInput
+MyInput = Application.InputBox(prompt:="Please enter your birth year: ", Type:=1)
+```
