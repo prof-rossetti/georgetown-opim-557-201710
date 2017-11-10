@@ -53,6 +53,8 @@ Set MyCell = Range("A1")
 MsgBox("The value in cell " & MyCell.Address & " is: " & MyCell.Value)
 ```
 
+See also [Datatypes of Numeric Cell Values](/notes/visual-basic/datatypes.md#datatypes-of-numeric-cell-values).
+
 ##### Writing Cell Values
 
 Write a value to a cell:

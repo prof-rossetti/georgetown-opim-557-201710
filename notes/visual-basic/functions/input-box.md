@@ -9,3 +9,5 @@ Dim MyName As String
 MyName = InputBox("Please input your name: ")
 MsgBox(MyName)
 ```
+
+See also [Datatypes of `InputBox` Values](/notes/visual-basic/datatypes.md#datatypes-of-inputbox-values).
