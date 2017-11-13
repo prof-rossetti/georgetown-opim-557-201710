@@ -10,10 +10,10 @@ class | day | date | topic(s)
 4 | Thursday | 2017-11-02 | ["All the ActiveX Controls" Exercise](/exercises/all-the-controls/exercise.md) - Solutions; <br> Intro to [Project 1](/projects/savings-calculator/project.md)
 5 | Tuesday | 2017-11-07 | Refactoring; <br> [Functions](/notes/visual-basic/functions.md); <br> [Loops](/notes/visual-basic/loops.md); <br> [Project 1 Support](/projects/savings-calculator/checkpoints.md)
 6 | Thursday | 2017-11-09 | [Validating User Inputs](/notes/visual-basic/datatypes.md#checking-a-variables-type); <br> [Error-handling](/notes/visual-basic/error-handling.md); <br> [Project 1 Support](/projects/savings-calculator/checkpoints.md)
-7 | Tuesday | 2017-11-14 | Project 1 Solution Walkthrough
-8 | Thursday | 2017-11-16 | Project 1 Solution Walkthrough
-9 | Tuesday | 2017-11-21 | Project 2 Introduction; <br> Sensitivity Analysis
+7 | Tuesday | 2017-11-14 | [Modules and Application Architecture](/notes/visual-basic/modules.md); <br> Project 1 Solution Walkthrough
+8 | Thursday | 2017-11-16 | Project 1 Solution Walkthrough; <br> Arrays; <br> String Splitting; <br> Writing Sheets of Data
+9 | Tuesday | 2017-11-21 | Project 2 Introduction; <br> Making HTTP Requests
 10 | Thursday | 2017-11-23 | Thanksgiving Holiday (No Class)
-11 | Tuesday | 2017-11-28 | Project 2 Solution Walkthrough
-12 | Thursday | 2017-11-30 | Project 2 Solution Walkthrough
+11 | Tuesday | 2017-11-28 | Project 2 Setup Walkthrough
+12 | Thursday | 2017-11-30 | Project 2 Support Session (Independent Work)
 13 | Tuesday | 2017-12-05 | Retrospective
