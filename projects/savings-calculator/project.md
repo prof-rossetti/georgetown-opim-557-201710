@@ -50,6 +50,8 @@ Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
 Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
 
+![a screenshot showing a message box displaying the user inputs](display-inputs.png)
+
 ### Information Outputs
 
 Your system should produce the following outputs:
@@ -66,6 +68,8 @@ Final Savings Balance | `SavingsBalance` | `Double` | `189439.21`
 Total Savings Contribution | `TotalContribution` | `Double` | `158000.00`
 Total Interest Accrued | `InterestAccrued` | `Double` | `31439.21`
 
+![a screenshot showing a message box displaying the final outputs](display-outputs.png)
+
 See the "Calculation Requirements" section below for more information about how to calculate these information outputs.
 
 ## Interface Requirements
@@ -80,7 +84,7 @@ Use an ActiveX `CommandButton` control that when clicked will read and validate 
 
 The figure below depicts an example interface:
 
-![a screenshot depicting an example user interface which includes cell inputs and a "Calculate" button](example-interface-cells-only.png)
+![a screenshot depicting an example user interface which includes cell inputs and a "Calculate" button](example-solution/interfaces/cells-only.png)
 
 ## Validation Requirements
 
