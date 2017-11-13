@@ -43,7 +43,7 @@ Private Sub CommandButton1_Click()
     ' CALCULATE OUTPUTS
     '
 
-    ' ... perform calculations here (see checkpoint steps)
+    ' ... perform calculations here (see checkpoint 3 steps)
 
     '
     ' DISPLAY FINAL OUTPUTS

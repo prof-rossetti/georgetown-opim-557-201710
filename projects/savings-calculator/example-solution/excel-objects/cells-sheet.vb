@@ -45,7 +45,7 @@ Private Sub CommandButton1_Click()
     Dim TotalContribution As Double
     Dim TotalInterest As Double
 
-    ' ... perform calculations here (see checkpoint steps)
+    ' ... perform calculations here (see checkpoint 3 steps)
 
     '
     ' DISPLAY FINAL OUTPUTS
