@@ -12,3 +12,4 @@ Much of the public material in this repository has been adapted from my previous
 ## Tools
 
   + [VB Indent](http://www.vbindent.com/)
+  + [VBA Language Snippets and Syntax Highlighting for Atom Text Editor](https://atom.io/packages/language-vba)
