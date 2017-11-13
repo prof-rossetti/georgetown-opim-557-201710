@@ -40,6 +40,8 @@ Your system should accept the following user inputs:
   + The amount of money the client plans to contribute to savings each year. Assume contributions are made at the end of each year, after interest has been accrued.
   + A projected annual growth rate for the client's savings (a.k.a the interest rate). Assume interest will compound on an annual basis (at the end of each year), not on a monthly basis.
 
+![a screenshot showing a message box displaying the user inputs](display-inputs.png)
+
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
 info input | suggested variable name | variable datatype | example value
@@ -50,7 +52,6 @@ Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
 Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
 
-![a screenshot showing a message box displaying the user inputs](display-inputs.png)
 
 ### Information Outputs
 
@@ -60,6 +61,8 @@ Your system should produce the following outputs:
   + The portion of the final savings balance which was contributed directly by the client.
   + The portion of the final savings balance resulting from accrued interest on the principal.
 
+![a screenshot showing a message box displaying the final outputs](display-outputs.png)
+
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
 info output | suggested variable name | variable datatype | example value
@@ -67,8 +70,6 @@ info output | suggested variable name | variable datatype | example value
 Final Savings Balance | `SavingsBalance` | `Double` | `189439.21`
 Total Savings Contribution | `TotalContribution` | `Double` | `158000.00`
 Total Interest Accrued | `InterestAccrued` | `Double` | `31439.21`
-
-![a screenshot showing a message box displaying the final outputs](display-outputs.png)
 
 See the "Calculation Requirements" section below for more information about how to calculate these information outputs.
 
