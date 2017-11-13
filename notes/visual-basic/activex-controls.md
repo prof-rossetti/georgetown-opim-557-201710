@@ -29,7 +29,7 @@ Most controls have a `Value` property which provides programmatic access to the 
 
 Many controls have a `Caption` property which specifies written text to be displayed to the user.
 
-Many controls have a `LinkedCell` property which bidirectionally associates that control's value with the value of a cell you specify. Be careful when allowing users to enter values in these linked cells because they might make a mistake.
+Many controls have a `LinkedCell` property which bidirectionally associates that control's value with the value of a cell you specify. Be careful when allowing users to enter values in these linked cells because they might make a mistake. Reference: [how to protect or hide certain cells](https://support.microsoft.com/en-us/help/214081/xl-how-to-lock-individual-cells-in-a-worksheet).
 
 Certain "choose from a list" controls have a property called `ListFillRange` which specifies a range of cells to populate the control's selectable options.
 
