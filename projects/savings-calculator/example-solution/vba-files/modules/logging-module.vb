@@ -9,7 +9,7 @@ Public Sub LogDatatype(ByVal MyVal)
 End Sub
 
 ' displays a message box with nicely-formatted user input values
-Public Sub LogUserInputs(ByVal Age, ByVal RetirementAge, ByVal SavingsBalance, ByVal AnnualContribution, ByVal AnnualInterestRate)
+Public Sub LogUserInputs(ByVal Age As Integer, ByVal RetirementAge As Integer, ByVal SavingsBalance As Double, ByVal AnnualContribution As Double, ByVal AnnualInterestRate As Double)
     MsgBox ("INFORMATION INPUTS" & vbNewLine & _
             "---------------------------------" & vbNewLine & _
             "Current Age: " & Age & vbNewLine & _
@@ -21,7 +21,7 @@ Public Sub LogUserInputs(ByVal Age, ByVal RetirementAge, ByVal SavingsBalance, B
 End Sub
 
 ' displays a message box with nicely-formatted final output values
-Public Sub LogFinalOutputs(ByVal SavingsBalance, TotalContribution, TotalInterest)
+Public Sub LogFinalOutputs(ByVal SavingsBalance As Double, ByVal TotalContribution As Double, ByVal TotalInterest As Double)
     Dim PctContribution As Double
     Dim PctInterest As Double
 

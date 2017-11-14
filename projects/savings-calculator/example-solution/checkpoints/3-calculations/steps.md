@@ -4,20 +4,13 @@
 
 ### Setup
 
-```vb
-'
-' CALCULATE OUTPUTS
-' ... Author: Prof. Rossetti <prof.mj.rossetti@gmail.com>.
-' ... License: Students, feel free but not obligated to use this code in your project as long as you retain this attribution section. If you wrote something like this on your own, no need to attribute. If this code inspired you to write your own code, please still consider providing an attribution link to this file's GitHub URL.
-'
+Download the ["calculation-less" example solution](/projects/savings-calculator/example-solution/example-solution-calculationless.xlsm).
 
-Dim TotalContribution As Double ' need to display this (not relevant until Step 4)
-Dim TotalInterest As Double ' need to display this (not relevant until Step 4)
+Reference also copies of the solution's [VBA files](/projects/savings-calculator/example-solution/vba-files).
 
-' ... perform calculations here (see steps, below)
-```
+For any given interface example, find the section titled `"CALCULATE OUTPUTS"`, specifically the `"perform calculations here"` placeholder.
 
-Keep the setup code above, and swap in each of the following steps in succession.
+For each step below, replace the `"perform calculations here"` placeholder with the code contained in that section. Then test the behavior of the program. When you are satisfied, replace the previous step's code with the next step's code and repeat the process.
 
 ### Step 1
 
