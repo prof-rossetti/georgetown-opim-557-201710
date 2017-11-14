@@ -11,7 +11,7 @@ class | day | date | topic(s)
 5 | Tuesday | 2017-11-07 | Refactoring; <br> [Functions](/notes/visual-basic/functions.md); <br> [Loops](/notes/visual-basic/loops.md); <br> [Project 1 Support (Independent Work)](/projects/savings-calculator/checkpoints.md)
 6 | Thursday | 2017-11-09 | [Validating User Inputs](/notes/visual-basic/datatypes.md#checking-a-variables-type); <br> [Error-handling](/notes/visual-basic/error-handling.md); <br> [Project 1 Support](/projects/savings-calculator/checkpoints.md)
 7 | Tuesday | 2017-11-14 | [Modules and Application Architecture](/notes/visual-basic/modules.md); <br> [Software Licensing](/notes/software/licensing.md); <br> [Project 1 Solution Walkthrough](/projects/savings-calculator/example-solution); <br> [Project 1 Calculations Checkpoint Solution Walkthrough](/projects/savings-calculator/example-solution/checkpoints/3-calculations/steps.md)
-8 | Thursday | 2017-11-16 | Arrays; <br> Splitting Strings; <br> Writing Sheets of Data; <br> Project 1 Walkthrough - From Calculator to System
+8 | Thursday | 2017-11-16 | Arrays; <br> Splitting Strings; <br> Writing Sheets of Data; <br> Project 1 - Scope Extension Exercise
 9 | Tuesday | 2017-11-21 | Project 2 Introduction; <br> HTTP Requests
 10 | Thursday | 2017-11-23 | Thanksgiving Holiday (No Class)
 11 | Tuesday | 2017-11-28 | Project 2 Setup Walkthrough
