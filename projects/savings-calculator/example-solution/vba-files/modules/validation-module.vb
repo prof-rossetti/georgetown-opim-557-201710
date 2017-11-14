@@ -34,7 +34,7 @@ HandleInvalid:
 End Function
 
 ' evaluates whether or not a given value looks like a currency value
-Public Function IsValidUSD(ByVal MyVal) ' public allows other files in this project to invoke this
+Public Function IsValidUSD(ByVal MyVal)
     Call LogDatatype(MyVal)
 
     If TypeName(MyVal) = "Double" Or TypeName(MyVal) = "Currency" Then
