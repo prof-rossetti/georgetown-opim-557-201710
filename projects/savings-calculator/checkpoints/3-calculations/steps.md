@@ -56,6 +56,8 @@ Calculate all final outputs:
 TotalContribution = SavingsBalance ' count initial savings balance toward total contribution
 
 Do While (Age <= RetirementAge)
+    Dim AnnualInterest As Double
+
     AnnualInterest = SavingsBalance * AnnualInterestRate
     SavingsBalance = SavingsBalance + AnnualInterest + AnnualContribution
 
