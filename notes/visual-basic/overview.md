@@ -26,7 +26,7 @@ Tutorials:
     + Accessing Object Properties
     + Debugging
     + [Commenting](comments.md)
-    + Modules and Scope
+    + [Modules and Architecture](modules.md)
     + [Error-handling](error-handling.md)
   + [Operators](https://msdn.microsoft.com/en-us/library/aa338163.aspx)
   + [Variables](variables.md)

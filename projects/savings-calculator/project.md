@@ -40,6 +40,8 @@ Your system should accept the following user inputs:
   + The amount of money the client plans to contribute to savings each year. Assume contributions are made at the end of each year, after interest has been accrued.
   + A projected annual growth rate for the client's savings (a.k.a the interest rate). Assume interest will compound on an annual basis (at the end of each year), not on a monthly basis.
 
+![a screenshot showing a message box displaying the user inputs](display-inputs.png)
+
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
 info input | suggested variable name | variable datatype | example value
@@ -50,6 +52,7 @@ Initial Savings Balance | `InitialBalance` | `Double` | `50000.00`
 Annual Savings Contribution | `AnnualContribution` | `Double` | `18000.00`
 Annual Savings Growth Rate (Interest Rate) | `InterestRate` | `Double` | `0.05`
 
+
 ### Information Outputs
 
 Your system should produce the following outputs:
@@ -57,6 +60,8 @@ Your system should produce the following outputs:
   + The final savings balance at the end of the year when the client reaches the specified retirement age.
   + The portion of the final savings balance which was contributed directly by the client.
   + The portion of the final savings balance resulting from accrued interest on the principal.
+
+![a screenshot showing a message box displaying the final outputs](display-outputs.png)
 
 The table below provides a framework for you to translate these information inputs into VBA variables.
 
@@ -80,7 +85,7 @@ Use an ActiveX `CommandButton` control that when clicked will read and validate 
 
 The figure below depicts an example interface:
 
-![a screenshot depicting an example user interface which includes cell inputs and a "Calculate" button](example-interface-cells-only.png)
+![a screenshot depicting an example user interface which includes cell inputs and a "Calculate" button](example-solution/interfaces/cells-only.png)
 
 ## Validation Requirements
 

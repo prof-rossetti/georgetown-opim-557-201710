@@ -4,6 +4,8 @@
 
 ### Declaring Variables
 
+Reference: [`Dim` Statement Documentation](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/statements/dim-statement).
+
 Visual Basic has traditionally been a "statically-typed" language, which means it requires the developer to declare which [type of data](/notes/visual-basic/datatypes.md) a variable will hold. In the current version it is not always necessary to declare variables to produce desired functionality. However, declaring variables is a best practice for performance reasons.
 
 The most common way to declare a variable is to use the `Dim` keyword, followed by the variable name, followed by the `As` keyword, followed by the datatype. For example:
