@@ -77,18 +77,4 @@ For Each MyCell in MyRange.Cells
 Next
 ```
 
-```vba
-Dim Teams(1 To 5) As String
-
-Teams(1) = "New York Yankees"
-Teams(2) = "New York Mets"
-Teams(3) = "Boston Red Sox"
-Teams(4) = "New Haven Ravens"
-Teams(5) = "Washington Nationals"
-
-Dim Team As Variant ' use Variant datatype instead of String datatype to avoid error
-
-For Each Team In Teams
-  MsgBox (Team)
-Next Team
-```
+See also: [looping through items in an array](/notes/visual-basic/datatypes/arrays.md#iteration).

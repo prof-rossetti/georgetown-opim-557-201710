@@ -72,3 +72,29 @@ Dim Price As Double
 Price = 45.12345
 MsgBox( Format(Price, "$##,##0.00") )
 ```
+
+##### String Splitting
+
+Split a string into component parts by using the `Split()` function and passing parameters corresponding to the string to be split, followed by the delimiter:
+
+```vb
+Dim MyStr As String
+MyStr = "first | second | third"
+
+Dim MyList() As String ' an array of strings
+MyList = Split(MyStr, " | ")
+```
+
+When a string is split, it results in an [array](/notes/visual-basic/datatypes/arrays.md), which can be accessed in the usual ways:
+
+```vb
+Dim ListItem As Variant
+
+For Each ListItem In MyList
+    MsgBox(ListItem)
+Next ListItem
+
+' --> "first"
+' --> "second"
+' --> "third"
+```
