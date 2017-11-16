@@ -31,7 +31,7 @@ Range("A1:C5")
 
 ### The `Range` Object
 
-The `Range` Object represents one or more cells.
+The `Range` object represents one or more cells.
 
 #### Helpful Range Properties
 
@@ -80,3 +80,28 @@ Range("A1:C5").Cells.Count ' --> 15
 ```
 
 After studying [loops](/notes/visual-basic/loops.md#for-each--next-loops), you can use one to iterate through all cells in a given range.
+
+### The `Worksheet` Object
+
+The `Worksheet` object references a corresponding worksheet. Access a specific sheet by its name (e.g. "Sheet1") or its position in the workbook (e.g. 1).
+
+```vb
+Dim MySheet As Worksheet
+Set MySheet = Worksheets("Sheet1") ' or Worksheets(1) if this is the first sheet
+
+MySheet.Name ' --> "Sheet1"
+MySheet.Index ' --> 1
+MySheet.Activate ' switch user view to this sheet
+```
+
+Like the `Range` object, the `Worksheet` object also has a `Cells` property, which can be used to manipulate the sheet's cell values.
+
+```vb
+MySheet.Cells.ClearContents ' remove values of all cells in this sheet
+```
+
+Pass a row number and a column number to reference a specific cell:
+
+```vb
+MySheet.Cells(1,3).Value = "good stuff" ' where 1 is the row number and 3 is the column number (a.k.a. cell "C1")
+```
