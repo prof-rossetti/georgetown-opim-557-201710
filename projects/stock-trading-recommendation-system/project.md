@@ -8,17 +8,17 @@ Specifically, the system should accept one or more stock symbols as information 
 
 ## Prerequisites
 
-  + Project 1 - Retirement Savings Calculator
-  + Arrays and Splitting Strings
-  + Writing Sheets of Data
-  + APIs and HTTP Requests
+  + [Project 1 - Retirement Savings Calculator](/projects/savings-calculator/project.md)
+  + [Arrays](/notes/visual-basic/datatypes/arrays.md) and [Splitting Strings](/notes/visual-basic/datatypes/strings.md#string-splitting)
+  + [Writing Sheets of Data](/notes/visual-basic/excel-objects.md#the-worksheet-object)
+  + [APIs](/notes/software/apis.md) and [Web Requests](/notes/visual-basic/web-requests.md)
   + Alpha Vantage API - [Registration](https://www.alphavantage.co/support/#api-key) and [Documentation](https://www.alphavantage.co/documentation/)
 
 ## Learning Objectives
 
-  + Design and build a tool to aid a decision-making process.
-  + Use ActiveX Controls and VBA to capture and validate user inputs.
-  + Use VBA to issue HTTP requests to retrieve data from an API.
+  + Design and build a tool to aid or automate a decision-making process.
+  + Use VBA to capture and validate user inputs.
+  + Use VBA to issue HTTP requests to retrieve CSV-formatted data from an API.
   + Use VBA to write CSV-formatted data to one or more spreadsheets.
   + Use VBA to perform programmatic calculations to arrive at a final system output.
 
