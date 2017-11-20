@@ -24,7 +24,7 @@ Tutorials:
     + Toggling back and forth between "Edit mode"
     + Accessing underlying VBA code
     + Accessing Object Properties
-    + Debugging
+    + [Debugging](debugging.md)
     + [Commenting](comments.md)
     + [Modules and Architecture](modules.md)
     + [Error-handling](error-handling.md)
