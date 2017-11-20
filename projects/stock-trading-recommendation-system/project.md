@@ -13,6 +13,7 @@ Specifically, the system should accept one or more stock symbols as information 
   + [Writing Sheets of Data](/notes/visual-basic/excel-objects.md#the-worksheet-object)
   + [APIs](/notes/software/apis.md) and [Web Requests](/notes/visual-basic/web-requests.md)
   + Alpha Vantage API - [Registration](https://www.alphavantage.co/support/#api-key) and [Documentation](https://www.alphavantage.co/documentation/)
+  + [Detecting Substrings](/notes/visual-basic/datatypes/strings.md#substring-detection)
 
 ## Learning Objectives
 
