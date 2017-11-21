@@ -37,23 +37,23 @@ The system should produce a recommendation as to whether or not the client shoul
 
 ## Interface Requirements
 
-The system should capture inputs via cell values, input boxes, or ActiveX controls.
+The system should capture inputs using your choice of input mechanism, whether it be cell value(s), input box(es), or some other means.
 
 The system should use an ActiveX command button click or some other event to trigger the recommendation process.
 
-For each stock symbol input by the user, the system should write historical trading data to a corresponding worksheet that is named after the stock symbol.
+The system should write historical stock prices to one or more worksheet(s). If the system processes only a single stock symbol at a time, the system may use a single sheet named something like "outputs" or "stock-prices". Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding worksheet that is named after the stock symbol. If writing multiple sheets of data, the system should have a way of cleaning-up to prevent uncontrolled proliferation of new sheets.
 
-The system should provide final recommendations via message box, cell values, or some other means.
+The system should display final recommendations using your choice of output mechanism, whether it be cell value(s), message box(es), or some other means.
 
 ## Validation Requirements
 
 The system should first validate user inputs (for example, ensuring stock symbols are `String` datatypes and less than around six characters long).
 
-Also, when the system makes an HTTP request for that stock symbol's trading data, if the stock symbol is not found, the system should display a friendly error message like "Sorry, couldn't find any trading data for that stock symbol".
+Also, when the system makes an HTTP request for that stock symbol's trading data, if the stock symbol is not found or there is an error message returned by the API server, the system should display a friendly error message like "Sorry, couldn't find any trading data for that stock symbol".
 
 ## Calculation Requirements
 
-You are free to develop your own custom decision-making algorithm. This is perhaps one of the most fun and creative parts of this project.
+You are free to develop your own custom recommendation algorithm. This is perhaps one of the most fun and creative parts of this project. :smiley:
 
 One simple example algorithm would be (in pseudocode): If the stock's latest closing price is less than 20% above its 52-week low, "Buy", else "Don't Buy".
 
@@ -68,11 +68,11 @@ One simple example algorithm would be (in pseudocode): If the stock's latest clo
 
 ## Submission Instructions
 
-Submit a single macro-enabled excel file to [Blackboard](https://campus.georgetown.edu/webapps/assignment/uploadAssignment?content_id=_4454669_1&course_id=_745457_1&assign_group_id=&mode=cpview). The file should be named **project-2-`NETID`.xlsm**, where `NETID` represents your own university-issued Net Id (e.g. **project-2-abc123.xlsm**).
+Submit a single macro-enabled excel file to [Blackboard](https://campus.georgetown.edu/webapps/assignment/uploadAssignment?content_id=_4454669_1&course_id=_745457_1&assign_group_id=&mode=cpview). The file should be named **project-2-`netid`.xlsm**, where `netid` represents your own university-issued Net Id (e.g. **project-2-abc123.xlsm**).
 
 ## Evaluation Methodology
 
-Full credit for a system which accepts one or more stock-symbol user inputs, issues corresponding HTTP requests to the AlphaVantage API, writes the resulting data to one or more worksheets, and provides final purchase recommendation(s).
+Full credit for a system which accepts one or more stock-symbol user inputs, validates inputs, issues corresponding HTTP requests to the AlphaVantage API, handles response errors as appropriate, writes response data to one or more worksheets, and provides final purchase recommendation(s).
 
 Else partial credit to highlight areas of improvement.
 
