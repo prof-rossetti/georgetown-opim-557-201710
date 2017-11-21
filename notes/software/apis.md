@@ -1,6 +1,6 @@
 # Software APIs Overview
 
-Humans often interface with software manually, using a graphical user interface (GUI) which most likely includes buttons, navigation menus, drag-and-drop functionality, etc.
+Humans often interface with software manually, using a **Graphical User Interface (GUI)** which most likely includes buttons, navigation menus, drag-and-drop functionality, etc.
 
 However, many applications also allow programmatic use. By specifying an **Application Programming Interface (API)**, or instructions on how to use the software programmatically, applications allow both humans and other applications to send data to the application and receive data from it.
 
@@ -27,7 +27,7 @@ Many web services require developers to first register to obtain valid credentia
 
 ### Response Formats
 
-The most common format for API response data is `JSON`, but some APIs alternatively or additionally provide response data in `XML` or `CSV` format.
+The most common format for API response data is JSON, but some APIs alternatively or additionally provide response data in XML or CSV format.
 
 Example CSV:
 
