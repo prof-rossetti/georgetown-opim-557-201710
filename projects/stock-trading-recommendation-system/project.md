@@ -35,13 +35,15 @@ The system may optionally prompt the user to specify additional inputs such as r
 
 The system should produce a recommendation as to whether or not the client should buy the stock, and optionally what quantity to purchase. The recommendation for each symbol can be binary (e.g. `"Buy"` or `"No Buy"`), qualitative (e.g. a `"Low"`, `"Medium"`, or `"High"` level of confidence), or quantitative (i.e. some numeric rating scale) in nature.
 
+If the system includes any prices in its final recommendation, they should be formatted as USD with a dollar sign (`$`) and two decimal places.
+
 ## Interface Requirements
 
 The system should capture inputs using your choice of input mechanism, whether it be cell value(s), input box(es), or some other means.
 
 The system should use an ActiveX command button click or some other event to trigger the recommendation process.
 
-The system should write historical stock prices to one or more worksheet(s). If the system processes only a single stock symbol at a time, the system may use a single sheet named something like "outputs" or "stock-prices". Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding worksheet that is named after the stock symbol. If writing multiple sheets of data, the system should have a way of cleaning-up to prevent uncontrolled proliferation of new sheets.
+The system should write historical stock prices to one or more worksheet(s). If the system processes only a single stock symbol at a time, the system may use a single sheet named something like "outputs" or "stock-prices". Whereas if the system processes multiple stock symbols at a time, for each stock symbol, the system should write historical trading data to a corresponding worksheet that is named after the stock symbol. If writing multiple sheets of data, the system should have a way of cleaning-up to prevent uncontrolled proliferation of new sheets. It is encouraged (especially for single-symbol solutions), but not necessary for price values on the output sheet(s) to be formatted as currency.
 
 The system should display final recommendations using your choice of output mechanism, whether it be cell value(s), message box(es), or some other means.
 
