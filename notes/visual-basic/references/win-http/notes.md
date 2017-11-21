@@ -29,7 +29,7 @@ WinHttpReq.Open "GET", RequestURL, False ' Prepare a GET request to be sent to t
 
 WinHttpReq.Send ' Issue the request and wait for a response.
 
-' After the request is issued, the request object will yield relevant response properties like Status, StatusText, and ResponseText
+' After the request is issued and response received, the request object will yield relevant response properties like Status, StatusText, and ResponseText
 
 MsgBox ("RESPONSE" & vbNewLine _
          & "-------------------------------" & vbNewLine _
