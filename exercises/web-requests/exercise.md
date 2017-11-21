@@ -3,7 +3,7 @@
 ## Prerequisites
 
   + ["Processing CSV Strings" Exercise](/exercises/processing-csv-strings/exercise.md)
-  + [Web Requests](/notes/visual-basic/web-requests.md)
+  + [Microsoft WinHTTP Services](/notes/visual-basic/references/win-http/notes.md)
 
 ## Learning Objectives
 

@@ -11,7 +11,7 @@ Specifically, the system should accept one or more stock symbols as information 
   + [Project 1 - Retirement Savings Calculator](/projects/savings-calculator/project.md)
   + [Arrays](/notes/visual-basic/datatypes/arrays.md) and [Splitting Strings](/notes/visual-basic/datatypes/strings.md#string-splitting)
   + [Writing Sheets of Data](/notes/visual-basic/excel-objects.md#the-worksheet-object)
-  + [Computer Networks](/notes/computer-networks/notes.md), [APIs](/notes/software/apis.md) and [Web Requests](/notes/visual-basic/web-requests.md)
+  + [Computer Networks](/notes/computer-networks/notes.md), [APIs](/notes/software/apis.md) and [Microsoft WinHTTP Services](/notes/visual-basic/references/win-http/notes.md)
   + Alpha Vantage API - [Registration](https://www.alphavantage.co/support/#api-key) and [Documentation](https://www.alphavantage.co/documentation/)
   + [Detecting Substrings](/notes/visual-basic/datatypes/strings.md#substring-detection)
 

@@ -1,12 +1,10 @@
 # VBA Language Overview
 
-## Web Requests
+### Microsoft WinHTTP Services
 
-### Prerequisites
+Prerequisites:
 
   + [Computer Networks](/notes/computer-networks/notes.md)
-
-### Microsoft WinHTTP Services
 
 Reference:
 
