@@ -1,5 +1,9 @@
 # Software APIs Overview
 
+Prerequisites:
+
+  + [Computer Networks](/notes/computer-networks/notes.md)
+
 Humans often interface with software manually, using a **Graphical User Interface (GUI)** which most likely includes buttons, navigation menus, drag-and-drop functionality, etc.
 
 However, many applications also allow programmatic use. By specifying an **Application Programming Interface (API)**, or instructions on how to use the software programmatically, applications allow both humans and other applications to send data to the application and receive data from it.
