@@ -20,7 +20,7 @@ Then adapt the following example code to meet your specific needs:
 
 ```vb
 Dim RequestURL As String
-RequestURL = "https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-557-20-201710/master/exercises/web-requests/teams.csv" ' Specify a URL pointing to some static data or some dynamic API endpoint.
+RequestURL = "https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-557-20-201710/6f89cfbb0aaa544b457a2f56282a97ade92b8161/exercises/web-requests/teams.csv" ' Specify a URL pointing to some static data or some dynamic API endpoint.
 
 Dim WinHttpReq As Object
 Set WinHttpReq = CreateObject("WinHttp.WinHttpRequest.5.1") ' Initialize a new request object.
