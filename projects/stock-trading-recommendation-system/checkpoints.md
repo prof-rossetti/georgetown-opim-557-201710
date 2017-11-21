@@ -14,7 +14,7 @@ You could develop new functionality in the same logical order as the program's e
 
 If you choose the former approach, walk through each of the checkpoints in order. This will allow you to get to what you know you don't know as soon as possible, so you can stop stressing about it.
 
-If you choose the latter approach, start with Checkpoint 1 and 2. Then download an example CSV file from the API and insert it into your workbook. You can pretend it was produced as a result of Checkpoint 6, and you can immediately skip to Checkpoint 7 and 8. Then once you are done, go back and complete Checkpoints 3-6.
+If you choose the latter approach, start with Checkpoint 1 and 2. Then download an example CSV file from the API and import it into your workbook. You can pretend it was produced as a result of Checkpoint 6, and you can immediately skip to Checkpoint 7 and 8. Then once you are done, go back and complete Checkpoints 3-6.
 
 ### Checkpoint 1: Capture User Inputs
 
@@ -28,7 +28,7 @@ If you choose the latter approach, start with Checkpoint 1 and 2. Then download 
 
 At this point it is not feasible to know whether or not the stock symbol input represents a real publicly-traded company. But do your best to perform some basic preliminary validations on the stock symbol, like making sure it is not numeric in nature, and making sure it resembles a stock symbol (i.e. less than around 6 characters, and no spaces).
 
-If the input doesn't pass validations, display a message box to the user to help them fix the error, and stop the program's execution. Otherwise, optionally temporarily display a message box to let the user know the input has passed initial validations.
+If the input doesn't pass validations, display a message box to the user to help them fix the error, and stop the program's execution. Otherwise, optionally display a message box to let the user know the input has passed initial validations.
 
 ![a screenshot showing a numeric user input and a message box instructing the user to input a stock symbol](example-preliminary-input-validation.png)
 
@@ -36,14 +36,14 @@ If the input doesn't pass validations, display a message box to the user to help
 
 ### Checkpoint 3: Compile Request URL
 
-  3. Declare a new string variable called `RequestURL` assign its value to be a hard-coded representation of your chosen request URL.
-  3. Feel free to move on to the next checkpoints using your hard-coded request URL. Later on, when you are ready, compile the request URL dynamically using a variable to represent the desired stock symbol. You are encouraged to abstract this dynamic URL-compilation logic into a function which accepts a stock symbol parameter and returns the corresponding request URL.
+  1. Declare a new string variable called `RequestURL` assign its value to be a hard-coded representation of your chosen request URL.
+  2. Feel free to move on to the next checkpoints using your hard-coded request URL. Later on, when you are ready, compile the request URL dynamically using a variable to represent the user inputted stock symbol. You are encouraged to abstract this dynamic URL-compilation logic into a function which accepts a stock symbol parameter and returns the corresponding request URL.
 
 ### Checkpoint 4: Request Stock Data
 
   1. If you have not already done so, configure Excel to use Microsoft WinHTTP Services.
   2. Use Microsoft WinHTTP Services to instantiate a new request object, and send the request.
-  3. Optionally display the corresponding response in a message box or in cell values. Include the response status and the response text.
+  3. Optionally display the corresponding response in a message box. Include the response status and the response text.
 
 ![a screenshot of a message box displaying the response status (200, OK) and response text (a CSV-formatted sting truncated because it is too large to fit in the message box)](example-response.png)
 
@@ -65,8 +65,8 @@ If the input doesn't pass validations, display a message box to the user to help
 
 ### Checkpoint 7: Perform Calculations
 
-  1. Prepare to test your program's ability to perform calculations using data from the output sheet. To avoid making unnecessary requests during this time, take a moment to comment-out the part of your code which issues the HTTP request. This will allow you to continue to test your program without straining the resources of the API server. Another friendly best practice that would be appreciated by the API developers. Don't worry, when you are done testing your calculations, you can un-comment the HTTP request logic.
-  1. Programmatically read cell values from your output sheet to determine metrics such as the latest closing price, and any other information relevant to making a final recommendation.
+  1. Prepare to test your program's ability to perform calculations using data from the output sheet. To avoid making unnecessary requests during this time, take a moment to comment-out the part of your code which issues the HTTP request. This will allow you to continue to test your program without straining the resources of the API server. This is another friendly best practice that would be appreciated by the API developers. Don't worry, when you are done testing your calculations, you can un-comment the HTTP request logic.
+  1. Programmatically read cell values from your output sheet to determine metrics such as the latest closing price and any other information relevant to making a final recommendation.
   2. Optionally display these calculations in a message box.
 
 ![a screenshot of a message box showing latest, min, max, and average closing price](example-calculations.png)
