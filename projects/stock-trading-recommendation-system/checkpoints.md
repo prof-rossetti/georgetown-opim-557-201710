@@ -1,10 +1,20 @@
 # Project 2 Checkpoints
 
-This document provides a progression of sequential checkpoints to help focus your development efforts.
+This document provides a progression of sequential checkpoints to help focus your development efforts. Students, feel free but not obligated to follow these instructions.
 
 Regardless of whether you would like your final project solution to process a single stock symbol at a time, or multiple stock symbols at a time, you are recommended to start with the simpler "Single Symbol Solution" first. Then you can optionally apply your learnings to the more complex "Multiple Symbol Solution".
 
+If you haven't already reviewed the [Alpha Vantage API documentation](https://www.alphavantage.co/documentation/), take a few moments to do so. Familiarize yourself with the available API functions (e.g. `TIME_SERIES_INTRADAY`, `TIME_SERIES_DAILY`, `TIME_SERIES_DAILY_ADJUSTED`, etc.), as well as the available request parameters and example responses for each. Choose a request URL that you would like to start with. You are highly, highly, highly recommended to request CSV-formatted data.
+
 ## Single Symbol Solution
+
+There are two possible approaches to developing this project.
+
+You could develop new functionality in the same logical order as the program's execution, following the user input all the way through to the user output. Or you could start with easy, familiar functionality first (i.e. capturing inputs, reading cell values, and performing calculations) and work your way towards more difficult, unfamiliar functionality (i.e. issuing HTTP requests and writing CSV data).
+
+If you choose the former approach, walk through each of the checkpoints in order. This will allow you to get to what you know you don't know as soon as possible, so you can stop stressing about it.
+
+If you choose the latter approach, start with Checkpoint 1 and 2. Then download an example CSV file from the API and insert it into your workbook. You can pretend it was produced as a result of Checkpoint 6, and you can immediately skip to Checkpoint 7 and 8. Then once you are done, go back and complete Checkpoints 3-6.
 
 ### Checkpoint 1: Capture User Inputs
 
@@ -26,9 +36,7 @@ If the input doesn't pass validations, display a message box to the user to help
 
 ### Checkpoint 3: Compile Request URL
 
-  1. If you haven't already reviewed the [Alpha Vantage API documentation](https://www.alphavantage.co/documentation/), take a few moments to do so. Familiarize yourself with the available API functions (e.g. `TIME_SERIES_INTRADAY`, `TIME_SERIES_DAILY`, `TIME_SERIES_DAILY_ADJUSTED`, etc.), as well as the available request parameters and example responses for each.
-  2. Choose a request URL that you would like to start with. You are highly, highly, highly recommended to specify your desire for the response to be in CSV format.
-  3. In your program, declare a new string variable called `RequestURL` assign its value to be a hard-coded representation of your chosen request URL.
+  3. Declare a new string variable called `RequestURL` assign its value to be a hard-coded representation of your chosen request URL.
   3. Feel free to move on to the next checkpoints using your hard-coded request URL. Later on, when you are ready, compile the request URL dynamically using a variable to represent the desired stock symbol. You are encouraged to abstract this dynamic URL-compilation logic into a function which accepts a stock symbol parameter and returns the corresponding request URL.
 
 ### Checkpoint 4: Request Stock Data
