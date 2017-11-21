@@ -1,6 +1,8 @@
 # Software APIs Overview
 
-A software application's **Application Programming Interface (API)** provides functionality and instructions sufficient to allow other programs to interface with it.
+Humans often interface with software manually, using a graphical user interface (GUI) which most likely includes buttons, navigation menus, drag-and-drop functionality, etc.
+
+However, many applications also allow programmatic use. By specifying an **Application Programming Interface (API)**, or instructions on how to use the software programmatically, applications allow both humans and other applications to send data to the application and receive data from it.
 
 It is not uncommon for a system to also use its own public API to perform its own desired functionality.
 
@@ -42,10 +44,11 @@ Example JSON:
 
 ```js
 [
-  {"city": "New York", "name": "Yankees", "league":"major"},
-  {"city": "New York", "name": "Mets", "league":"major"},
-  {"city": "Boston", "name": "Red Sox", "league":"major"},
-  {"city": "New Haven", "name": "Ravens", "league":"minor"}
+  {"city": "New York", "name": "Yankees", "league":"Major"},
+  {"city": "New York", "name": "Mets", "league":"Major"},
+  {"city": "Boston", "name": "Red Sox", "league":"Major"},
+  {"city": "Washington", "name": "Nationals", "league":"Major"},
+  {"city": "New Haven", "name": "Ravens", "league":"Minor"}
 ]
 ```
 
@@ -56,22 +59,27 @@ Example XML:
 <teams>
   <team>
     <city>New York</city>
-    <league>major</league>
+    <league>Major</league>
     <name>Yankees</name>
   </team>
   <team>
     <city>New York</city>
-    <league>major</league>
+    <league>Major</league>
     <name>Mets</name>
   </team>
   <team>
     <city>Boston</city>
-    <league>major</league>
+    <league>Major</league>
     <name>Red Sox</name>
   </team>
   <team>
+    <city>Washington</city>
+    <league>Major</league>
+    <name>Nationals</name>
+  </team>
+  <team>
     <city>New Haven</city>
-    <league>minor</league>
+    <league>Minor</league>
     <name>Ravens</name>
   </team>
 </teams>
@@ -79,6 +87,8 @@ Example XML:
 
 ### Request Parameters
 
-Many APIs allow you to specify URL parameters along with your request. These URL parameters are appended to the end of the base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character `&`.
+Many APIs allow you to specify URL parameters along with your HTTP request. These URL parameters are appended to the end of the API's base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character `&`.
 
-Example request URL: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo. In this example, `https://www.alphavantage.co/query` is the base URL. And `function`, `symbol`, `outputsize`, and `apikey` are the names of URL parameters.
+Example request URL: https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=MSFT&outputsize=compact&apikey=demo.
+
+In this example, `https://www.alphavantage.co/query` is the base URL. And `function`, `symbol`, `outputsize`, and `apikey` are the names of URL parameters.
