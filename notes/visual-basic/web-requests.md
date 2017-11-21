@@ -2,9 +2,9 @@
 
 ## Web Requests
 
-### The HTTP Protocol
+### Prerequisites
 
-TBA - a practical, non-overwhelming introduction to the HTTP protocol. Use `GET` method to ask for data and other methods like `POST` to provide data.
+  + [Computer Networks](/notes/computer-networks/notes.md)
 
 ### Microsoft WinHTTP Services
 
