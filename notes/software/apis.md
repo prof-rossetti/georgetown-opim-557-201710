@@ -77,7 +77,7 @@ Example XML:
 </teams>
 ```
 
-## URL Parameters
+### Request Parameters
 
 Many APIs allow you to specify URL parameters along with your request. These URL parameters are appended to the end of the base URL, starting with a single question mark (`?`) to denote the rest of the URL contains parameters. Then each parameter follows a convention where the name of the parameter is followed by an equal sign (`=`), which is followed by the desired parameter value. If there are multiple parameters, subsequent parameters after the first are separated by the ampersand character `&`.
 
