@@ -12,7 +12,7 @@ class | day | date | topic(s)
 6 | Thursday | 2017-11-09 | [Validating User Inputs](/notes/visual-basic/datatypes.md#checking-a-variables-type); <br> [Error-handling](/notes/visual-basic/error-handling.md); <br> [Project 1 Support](/projects/savings-calculator/checkpoints.md)
 7 | Tuesday | 2017-11-14 | [Modules and Application Architecture](/notes/visual-basic/modules.md); <br> [Software Licensing](/notes/software/licensing.md); <br> [Project 1 Solution Walkthrough](/projects/savings-calculator/example-solution); <br> [Project 1 Calculations Checkpoint Solution Walkthrough](/projects/savings-calculator/checkpoints/3-calculations/steps.md)
 8 | Thursday | 2017-11-16 | [Arrays](/notes/visual-basic/datatypes/arrays.md); <br> [Splitting Strings](/notes/visual-basic/datatypes/strings.md#string-splitting); <br> [Writing Sheets of Data](/notes/visual-basic/excel-objects.md#the-worksheet-object); <br> Project 1 - Scope Extension Exercise
-9 | Tuesday | 2017-11-21 | ["Processing CSV Strings" Exercise](/exercises/processing-csv-strings/exercise.md) ; <br> Project 2 Introduction; <br> Computer Networks, HTTP Requests, and APIs
+9 | Tuesday | 2017-11-21 | ["Processing CSV Strings" Exercise](/exercises/processing-csv-strings/exercise.md) ; <br> [Project 2 Introduction](/projects/stock-trading-recommendation-system/project.md) and Demo; <br> [Computer Networks](/notes/computer-networks/notes.md), [APIs](/notes/software/apis.md) and [Microsoft WinHTTP Services](/notes/visual-basic/references/win-http/notes.md); <br> ["Web Requests" Exercise](/exercises/web-requests/exercise.md)
 10 | Thursday | 2017-11-23 | Thanksgiving Holiday (No Class)
 11 | Tuesday | 2017-11-28 | Project 2 Setup Walkthrough
 12 | Thursday | 2017-11-30 | Project 2 Support (Independent Work)

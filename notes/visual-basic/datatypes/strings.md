@@ -4,6 +4,11 @@
 
 ### Strings
 
+Reference:
+
+  + [The String Datatype](https://msdn.microsoft.com/en-us/vba/language-reference-vba/articles/string-data-type)
+  + [String Functions](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/functions/string-functions)
+
 The "string" datatype is used to represent words or text. A string must begin with an opening quotation mark (`"`) and end with a closing quotation mark (`"`) (e.g. `"Hello World"`).
 
 ```vb
@@ -97,4 +102,19 @@ Next ListItem
 ' --> "first"
 ' --> "second"
 ' --> "third"
+```
+
+##### Substring Detection
+
+Use the `InStr()` function to detect whether or not a string includes a specified substring. The first parameter represents the string to be searched, and the second parameter represents the substring to search for.
+
+If the substring is found, the function will return a `0`, otherwise it will return the substring index number representing the position of the substring's first character:
+
+```vb
+Dim MyStr As String
+MyStr = "Hello World"
+
+InStr(MyStr, "World") ' --> 7
+
+InStr(MyStr, "Goodbye") ' --> 0
 ```
