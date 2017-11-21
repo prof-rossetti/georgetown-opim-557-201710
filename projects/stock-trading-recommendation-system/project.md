@@ -49,9 +49,9 @@ The system should display final recommendations using your choice of output mech
 
 ## Validation Requirements
 
-The system should first validate user inputs (for example, ensuring stock symbols are `String` datatypes and less than around six characters long).
+The system should first perform preliminary user input validations. For example, it should ensure stock symbols are `String` datatypes and less than around six characters long.
 
-Also, when the system makes an HTTP request for that stock symbol's trading data, if the stock symbol is not found or there is an error message returned by the API server, the system should display a friendly error message like "Sorry, couldn't find any trading data for that stock symbol".
+Also, when the system makes an HTTP request for that stock symbol's trading data, if the stock symbol is not found or there is an error message returned by the API server, the system should display a friendly error message like "Sorry, couldn't find any trading data for that stock symbol", and it should stop program execution to allow the user to try again.
 
 ## Calculation Requirements
 
