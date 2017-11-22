@@ -79,3 +79,15 @@ Full credit for a properly-named file which accepts one or more stock-symbol use
 Else partial credit to highlight areas of improvement.
 
 Note: The professor reserves the right to award extra credit in recognition of particularly-effective user experiences.
+
+### Tentative Rubric
+
+A tentative grading rubric is as follows:
+
+top-level requirement | tentative weight
+--- | ---
+File Naming | around 4%
+Information Requirements | around 24%
+Interface Requirements | around 24%
+Validation Requirements | around 24%
+Calculation Requirements | around 24%
