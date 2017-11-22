@@ -14,6 +14,6 @@ class | day | date | topic(s)
 8 | Thursday | 2017-11-16 | [Arrays](/notes/visual-basic/datatypes/arrays.md); <br> [Splitting Strings](/notes/visual-basic/datatypes/strings.md#string-splitting); <br> [Writing Sheets of Data](/notes/visual-basic/excel-objects.md#the-worksheet-object); <br> Project 1 - Scope Extension Exercise
 9 | Tuesday | 2017-11-21 | ["Processing CSV Strings" Exercise](/exercises/processing-csv-strings/exercise.md) ; <br> [Project 2 Introduction](/projects/stock-trading-recommendation-system/project.md) and Demo; <br> [Computer Networks](/notes/computer-networks/notes.md), [APIs](/notes/software/apis.md) and [Microsoft WinHTTP Services](/notes/visual-basic/references/win-http/notes.md); <br> ["Web Requests" Exercise](/exercises/web-requests/exercise.md)
 10 | Thursday | 2017-11-23 | Thanksgiving Holiday (No Class)
-11 | Tuesday | 2017-11-28 | Project 2 Setup Walkthrough
+11 | Tuesday | 2017-11-28 | [Project 2 Setup](/projects/stock-trading-recommendation-system/checkpoints.md) Walkthrough
 12 | Thursday | 2017-11-30 | Project 2 Support (Independent Work)
 13 | Tuesday | 2017-12-05 | Retrospective

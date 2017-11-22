@@ -74,8 +74,20 @@ Submit a single macro-enabled excel file to [Blackboard](https://campus.georgeto
 
 ## Evaluation Methodology
 
-Full credit for a system which accepts one or more stock-symbol user inputs, validates inputs, issues corresponding HTTP requests to the AlphaVantage API, handles response errors as appropriate, writes response data to one or more worksheets, and provides final purchase recommendation(s).
+Full credit for a properly-named file which accepts one or more stock-symbol user inputs, validates inputs, issues corresponding HTTP requests to the AlphaVantage API, handles response errors as appropriate, writes response data to one or more worksheets, and provides final purchase recommendation(s).
 
 Else partial credit to highlight areas of improvement.
 
 Note: The professor reserves the right to award extra credit in recognition of particularly-effective user experiences.
+
+### Tentative Rubric
+
+A tentative grading rubric is as follows:
+
+top-level requirement | tentative weight
+--- | ---
+File Naming | around 4%
+Information Requirements | around 24%
+Interface Requirements | around 24%
+Validation Requirements | around 24%
+Calculation Requirements | around 24%
