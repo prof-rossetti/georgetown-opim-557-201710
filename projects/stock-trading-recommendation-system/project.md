@@ -88,6 +88,6 @@ top-level requirement | tentative weight
 --- | ---
 File Naming | around 4%
 Information Requirements | around 24%
-Interface Requirements | around 24%
+Interface Requirements | around 24% (weight likely to be dispersed throughout the other three requirements)
 Validation Requirements | around 24%
 Calculation Requirements | around 24%
