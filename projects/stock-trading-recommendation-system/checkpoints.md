@@ -36,14 +36,14 @@ If the input doesn't pass validations, display a message box to the user to help
 
 ### Checkpoint 3: Compile Request URL
 
-  1. Declare a new string variable called `RequestURL` assign its value to be a hard-coded representation of your chosen request URL.
-  2. Feel free to move on to the next checkpoints using your hard-coded request URL. Later on, when you are ready, compile the request URL dynamically using a variable to represent the user inputted stock symbol. You are encouraged to abstract this dynamic URL-compilation logic into a function which accepts a stock symbol parameter and returns the corresponding request URL.
+  1. Declare a new string variable called `RequestURL` and assign its value to be a hard-coded representation of your chosen request URL.
+  2. Feel free to move on to the next checkpoints using your hard-coded request URL. Later on, when you are ready, compile the request URL dynamically using a variable to represent the user inputted stock symbol. You are further encouraged to abstract this dynamic URL-compilation logic into a function which accepts a stock symbol parameter and returns the corresponding request URL.
 
 ### Checkpoint 4: Request Stock Data
 
   1. If you have not already done so, configure Excel to use Microsoft WinHTTP Services.
   2. Use Microsoft WinHTTP Services to instantiate a new request object, and send the request.
-  3. Optionally display the corresponding response in a message box. Include the response status and the response text.
+  3. Optionally display the corresponding response in a message box, including the response status and the response text.
 
 ![a screenshot of a message box displaying the response status (200, OK) and response text (a CSV-formatted sting truncated because it is too large to fit in the message box)](example-response.png)
 
@@ -58,7 +58,7 @@ If the input doesn't pass validations, display a message box to the user to help
 
 ### Checkpoint 6: Write Response to Sheet
 
-  1. Create a new sheet to store the historical price data. Name it something like "outputs" or "stock-data".
+  1. Manually create a new sheet to store the historical price data. Name it something like "outputs" or "stock-data".
   2. Parse the response text, which will be a CSV formatted string as long as you made the proper request. Use loops and arrays to write the corresponding values to the output sheet.
 
 ![a screenshot of a worksheet full of historical stock prices. it has columns for "timestamp", "open", "high", "low", "close", and "volume". And is has a row of corresponding values for each day.](example-output-sheet.png)

@@ -1,0 +1,52 @@
+,0.04,0.25,0.25,0.25,0.07,0.07,0.07,1,N/A,N/A,N/A,N/A
+project-number,file-naming,inputs,calculations,outputs,ages-validated,usd-validated,pct-validated,raw-score,early-bonus,looks-familiar,final-score,notes
+36,1,1,1,1.15,1.2,1,1,1.0515,0.12,0,1.172,outputs-usd (message box only); outputs-temporal-disconnect; outputs-context++ (disclaimer text); outputs-chart++; outputs-chart-styling++; val-ages-comparison++
+16,1,1,1,1,1.2,1,1,1.014,0.12,0,1.134,outputs-temporal-disconnect; outputs-sheet++; val-ages-comparison++
+12,1,0.8,1,1.2,1.2,1,1,1.014,0.12,0,1.134,input-process-duplication (optional except to produce final outputs); inputs-cancellation-handling; outputs-temporal-disconnect (but not all outputs); outputs-sheet++; outputs-chart++ (x2); val-ages-comparison++
+24,1,1,1,1,1.2,1,1,1.014,0.12,0,1.134,val-ages-comparison++
+7,1,1,1,0.9,1.3,1.1,1.1,1.01,0.12,0,1.130,outputs-temporal-disconnect; val-ages-comparison++; NOTE: excellent validation user experience (e.g. changing color of invalid cell)
+43,1,0.8,1,1.15,1.2,1,1,1.0015,0.12,0,1.122,inputs-cancellation-handling; input-process-duplication (optional except to produce final outputs); outputs-temporal-disconnect (not all); outputs-sheet++; outputs-chart++; val-ages-comparison++
+2,1,0.9,1,1,1.2,1,1,0.989,0.12,0,1.109,inputs-decimal-pct (display); val-ages-comparison++
+8,0,1.05,1,1,1.2,1,1,0.9865,0.12,0,1.107,inputs-elegant-interest-rate-solution++; val-ages-comparison++
+21,1,0.9,1,0.95,1.2,1,1,0.9765,0.12,0,1.097,inputs-decimal-pct (display); outputs-temporal-disconnect (with clear button OK); val-ages-comparison++
+22,0,0.9,1,1.15,1.2,0.9,0.9,0.9725,0.12,0,1.093,inputs-decimal-pct (display); outputs-temporal-disconnect; output-chart++; outputs-sheet++; outputs-chart-styling++; val-usd (message references ages); val-pct (message references ages); val-ages-comparison++;
+30,1,0.9,1,0.9,1.2,1,1,0.964,0.12,0,1.084,inputs-decimal-pct (display); outputs-temporal-disconnect; val-ages-comparison++
+6,1,0.8,1,0.9,1.2,1,1,0.939,0.12,0,1.059,inputs-decimal-pct (display); inputs-mixed-with-outputs (e.g. Years of Savings); inputs-button-below-fold; outputs-temporal-disconnect; val-ages-comparison++
+47,1,0.8,1,0.9,1.2,1,1,0.939,0.12,0,1.059,inputs-decimal-pct (unable to); outputs-temporal-disconnect; val-ages-comparison++
+28,1,0.8,1,0.85,1.2,1,1,0.9265,0.12,0,1.047,inputs-decimal-pct (not recognized); outputs-temporal-disconnect; outputs-usd-formatting (message box only); val-ages-comparison++
+9,1,0.95,1,1.05,0.7,0.5,0.5,0.909,0.12,0,1.029,input-process-duplication (optional OK); outputs-temporal-disconnect (with reset button OK); outputs-sheet++; val-age; val-usd; val-pct; val-ages-comparison++
+48,0,1,1,1,1.2,0.5,0.5,0.904,0.12,0,1.024,val-usd; val-pct; val-ages-comparison++;
+37,1,1,1,1,1.2,1,1,1.014,0,0,1.014,val-ages-comparison++
+27,1,1,1,1,1.2,1,1,1.014,0,0,1.014,val-ages-comparison++
+44,0,1,1,0.95,1.2,0.5,0.5,0.8915,0.12,0,1.012,outputs-spaces; val-usd; val-pct; val-ages-comparison++;
+41,1,0.95,1,0.95,0.7,0.5,0.5,0.884,0.12,0,1.004,"input-process-duplication (optional OK); outputs-temporal-disconnect (below fold OK); val-age; val-usd; val-pct; val-ages-comparison++; NOTE: input boxes are validated well, but cells are not validated"
+32,1,0.9,1,1,1.2,1,1,0.989,0,0,0.989,inputs-decimal-pct (display); val-ages-comparison++
+35,1,0.9,1,1,1.2,1,1,0.989,0,0,0.989,inputs-decimal-pct (display); outputs-temporal-disconnect (reset button OK); outputs-sheet++; outputs-sheet-not-updating (clear button OK); val-ages-comparison++
+11,1,1,1,0.9,1.2,1,1,0.989,0,0,0.989,"looks-familiar (attribution OK, license unmodified OK, at least one new feature - writing values to sheet OK); outputs-temporal-disconnect; val-ages-comparison++; NOTE: detected multiple interfaces, only input boxes evaluated;"
+1,1,1,1,0.9,1.2,1,1,0.989,0,0,0.989,outputs-temporal-disconnect; val-ages-comparison++
+39,1,0.9,1,0.9,0.7,0.5,0.5,0.859,0.12,0,0.979,inputs-cancellation-handling; outputs-temporal-disconnect; val-age; val-usd; val-pct; val-ages-comparison++;
+34,1,0.9,1,0.9,1.2,1,1,0.964,0,0,0.964,inputs-process-duplication; outputs-temporal-disconnect; val-ages-comparison++
+25,1,0.9,1,0.9,1.2,1,1,0.964,0,0,0.964,inputs-process-duplication; outputs-temporal-disconnect; val-ages-comparison++
+49,1,0.9,1,0.9,1.2,1,1,0.964,0,0,0.964,"inputs-pct (display); inputs-usd (display); outputs-temporal-disconnect; looks-familiar (attribution OK, license unmodified OK, different features - writing to sheet OK); val-ages-comparison++"
+23,1,0.9,1,0.9,1,1,1,0.95,0,0,0.950,input-process-duplication; outputs-temporal-disconnect; NOTE: be careful of age comparisons
+10,1,0.8,1,0.9,1.2,1,1,0.939,0,0,0.939,inputs-decimal-usd (display); inputs-decimal-pct (display); inputs-pct (display in message box); outputs-temporal-disconnect; val-ages-comparison++; NOTE: humorous voice in validation messages made me LOL
+5,1,1,1,1,1.2,1,1,1.014,0,-0.075,0.939,"looks-familiar (attribution OK, license unmodified, no different features); val-ages-comparison++"
+17,0,0.85,1,1.05,1,1,1,0.935,0,0,0.935,input-process-duplication (optional OK); inputs-decimal-pct (display); inputs-cancellation (after a few clicks to step through OK); outputs-temporal-disconnect (reset button OK); outputs-sheet++; NOTE: be careful of age comparisons
+46,1,1.05,1,0.9,0.7,1,0.5,0.9315,0,0,0.932,outputs-temporal-disconnect; inputs-elegant-interest-rate-solution++; val-age; val-pct; val-ages-comparison++
+31,1,0.75,1,0.9,1.2,1,1,0.9265,0,0,0.927,input-process-duplication (optional OK); inputs-decimal-pct (not recognized); outputs-temporal-disconnect; val-ages-comparison++
+50,0,1,0.8,0.9,0.7,0.5,0.5,0.794,0.12,0,0.914,outputs-temporal-disconnect; calculations-subsequent-cached; val-age; val-usd; val-pct; val-ages-comparison++
+26,1,0.9,1,1,1.2,1,0.5,0.954,0,-0.075,0.879,"inputs-decimal-pct (display); looks-familiar (attribution OK, license unmodified OK, no different features); val-ages-comparison++; val-pct"
+40,1,0.9,0.7,0.85,0.5,0.5,0.5,0.7575,0.12,0,0.878,inputs-decimal-pct (display); outputs-sheet; outputs-temporal-disconnect; calculations-not-accurate (except in certain conditions); outputs-sheet++; outputs-sheet-not-updating; val-age; val-usd; val-pct;
+33,1,0.9,1,0.9,0.7,0.5,0.5,0.859,0,0,0.859,inputs-usd (display in message box); inputs-pct (display in message box); val-age; val-usd; val-pct; val-ages-comparison++;
+4,1,1,1,1.05,0.7,0.5,0.5,0.9215,0,-0.075,0.847,"outputs-usd (iterative annual message boxes only); outputs-sheet++; looks-familiar (partial attribution OK, license not retained, different features OK); val-age; val-usd; val-pct; val-ages-comparison++; NOTE: amazing job updating the results sheet in real-time; NOTE: if using open source code, you must retain the original license when the license requires it"
+13,1,0.8,1,1,0.5,0.5,0.5,0.845,0,0,0.845,inputs-process-duplication; inputs-cancellation-handling; val-age; val-usd; val-pct;
+38,0,1,1,0.9,0.7,0.5,0.5,0.844,0,0,0.844,outputs-temporal-disconnect; val-age; val-usd; val-pct; val-ages-comparison++; NOTE: multiple interfaces detected (only controls interface evaluated);
+3,0,0.65,1,0.8,1.2,1,1,0.8365,0,0,0.837,"inputs-decimal-pct (display); inputs-usd (display); outputs-temporal-disconnect; outputs-disconnect; val-ages-comparison++; NOTE: the tool was broken (couldn't get past integer validation) until I modified the underlying code to fix your input cell location references, so I deducted 0.25 from the inputs score instead of giving zeros for everything"
+45,1,0.9,0.9,0.9,0.7,0.5,0.5,0.834,0,0,0.834,inputs-decimal-pct (display); calculations-rounded; outputs-temporal-disconnect; val-age; val-usd; val-pct; val-ages-comparison++;
+18,0,1,1,1,1.2,1,1,0.974,0,-0.15,0.824,"looks-familiar (partial attribution OK, license modified, no different features); val-ages-comparison++; NOTE: if using open source code, you must retain the original license when the license requires it, and you don't actually have the ""discretion"" claimed by your new, modified license"
+15,1,0.75,1,0.9,0.7,0.5,0.5,0.8215,0,0,0.822,inputs-process-duplication; inputs-pct (display); inputs-cancellation-handling; outputs-temporal-disconnect; val-age; val-usd; val-pct; val-ages-comparison++;
+14,1,0.75,1,0.85,0.7,0.5,0.5,0.809,0,0,0.809,input-process-duplication (optional OK); inputs-cancellation-handling; inputs-decimal-pct (display); outputs-temporal-disconnect; outputs-sheet++; outputs-sheet-not-updating; val-age; val-usd; val-pct; val-ages-comparison++;
+20,1,0.65,1,0.9,0.5,0.5,0.5,0.7825,0,0,0.783,"input-process-duplication (optional OK); inputs-cancellation-handling; inputs-decimal-pct (not recognized); outputs-temporal-disconnect; val-age; val-usd; val-pct; NOTE: ""throw and handle errors"" button not evaluated, but consider removing if not providing value to user;"
+42,0,0.7,1,0.9,0.7,0.5,0.5,0.769,0,0,0.769,input-process-duplication (unrecognized linked cells); inputs-cancellation-handling (but not in all cases); inputs-decimal-pct (display); outputs-temporal-disconnect; val-age; val-usd; val-pct; val-ages-comparison++;
+29,1,0.95,0.6,0.9,0.5,0.5,0.5,0.7575,0,0,0.758,input-process-duplication (optional OK); calculations-inaccurate (all cases); outputs-temporal-disconnect; val-age; val-usd; val-pct;
+19,0,0.85,0.6,0.95,0.5,0.5,0.5,0.705,0,0,0.705,inputs-decimal-pct (display); inputs-process-duplication (optional OK); outputs-usd (not all places); calculations-inaccurate (all cases); val-age; val-usd; val-pct
