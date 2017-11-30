@@ -12,6 +12,13 @@
 
 ## Challenges
 
+Hint: a list of possible characters that represent a new line include:
+
+  + `vbLf`
+  + `vbCrLf`
+  + `vbCr`
+  + `vbNewLine`
+
 ### Challenge 1: Teams
 
 Use VBA to issue a GET request for this [example CSV-formatted "teams" data](https://raw.githubusercontent.com/prof-rossetti/georgetown-opim-557-20-201710/6f89cfbb0aaa544b457a2f56282a97ade92b8161/exercises/web-requests/teams.csv), then process it into a corresponding range of spreadsheet cells.
