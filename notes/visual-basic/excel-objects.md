@@ -111,7 +111,7 @@ MySheet.Cells(1,3).Value = "good stuff" ' where 1 is the row number and 3 is the
 [Create](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/sheets-add-method-excel) a new sheet:
 
 ```vb
-ActiveWorkbook.Worksheets.Add
+Worksheets.Add
 ```
 
 [Delete](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-delete-method-excel) a given sheet:
@@ -127,7 +127,7 @@ After you have studied looping and arrays, you can apply the concepts to loop th
 ```vb
 Dim MySheet As Worksheet
 
-For Each MySheet In ActiveWorkbook.Worksheets ' adapted from source: https://www.extendoffice.com/documents/excel/3057-excel-delete-all-sheets-except-current.html
+For Each MySheet In Worksheets ' adapted from source: https://www.extendoffice.com/documents/excel/3057-excel-delete-all-sheets-except-current.html
     MsgBox (MySheet.Name)
 Next
 ```
