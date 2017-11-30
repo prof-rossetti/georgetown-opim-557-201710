@@ -16,4 +16,4 @@ class | day | date | topic(s)
 10 | Thursday | 2017-11-23 | Thanksgiving Holiday (No Class)
 11 | Tuesday | 2017-11-28 | [Project 2 Setup](/projects/stock-trading-recommendation-system/checkpoints.md) Walkthrough
 12 | Thursday | 2017-11-30 | [Creating and Deleting Worksheets](/notes/visual-basic/excel-objects.md#creating-and-deleting-sheets); <br> Project 2 Support (Independent Work)
-13 | Tuesday | 2017-12-05 | Retrospective
+13 | Tuesday | 2017-12-05 | "Retrospective" Exercise
