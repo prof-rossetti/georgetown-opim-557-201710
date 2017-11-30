@@ -122,7 +122,7 @@ Worksheets("Sheet3").Delete
 
 #### Looping Through Sheets
 
-After you have studied looping and arrays, you can apply the concepts to loop through a collection of worksheets (`ActiveWorkbook.Worksheets`):
+After you have studied looping and arrays, you can apply the concepts to loop through a collection of worksheets:
 
 ```vb
 Dim MySheet As Worksheet
