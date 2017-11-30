@@ -105,3 +105,29 @@ Pass a row number and a column number to reference a specific cell:
 ```vb
 MySheet.Cells(1,3).Value = "good stuff" ' where 1 is the row number and 3 is the column number (a.k.a. cell "C1")
 ```
+
+#### Creating and Deleting Sheets
+
+[Create](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/sheets-add-method-excel) a new sheet:
+
+```vb
+ActiveWorkbook.Worksheets.Add
+```
+
+[Delete](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/worksheet-delete-method-excel) a given sheet:
+
+```vb
+Worksheets("Sheet3").Delete
+```
+
+#### Looping Through Sheets
+
+After you have studied looping and arrays, you can apply the concepts to loop through a collection of worksheets (`ActiveWorkbook.Worksheets`):
+
+```vb
+Dim MySheet As Worksheet
+
+For Each MySheet In ActiveWorkbook.Worksheets ' adapted from source: https://www.extendoffice.com/documents/excel/3057-excel-delete-all-sheets-except-current.html
+    MsgBox (MySheet.Name)
+Next
+```
