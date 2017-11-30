@@ -66,10 +66,12 @@ If the input doesn't pass validations, display a message box to the user to help
 ### Checkpoint 7: Perform Calculations
 
   1. Prepare to test your program's ability to perform calculations using data from the output sheet. To avoid making unnecessary requests during this time, take a moment to comment-out the part of your code which issues the HTTP request. This will allow you to continue to test your program without straining the resources of the API server. This is another friendly best practice that would be appreciated by the API developers. Don't worry, when you are done testing your calculations, you can un-comment the HTTP request logic.
-  1. Programmatically read cell values from your output sheet to determine metrics such as the latest closing price and any other information relevant to making a final recommendation.
-  2. Optionally display these calculations in a message box.
+  2. Programmatically read cell values from your output sheet to determine metrics such as the latest closing price and any other information relevant to making a final recommendation.
+  3. Optionally display these calculations in a message box.
 
 ![a screenshot of a message box showing latest, min, max, and average closing price](example-calculations.png)
+
+Hint: You may find it helpful to use [various `WorksheetFunction`s](https://msdn.microsoft.com/en-us/vba/excel-vba/articles/using-excel-worksheet-functions-in-visual-basic) like `SUM()`, `MIN()`, `MAX()`, etc.
 
 ### Checkpoint 8: Output Final Recommendation
 
