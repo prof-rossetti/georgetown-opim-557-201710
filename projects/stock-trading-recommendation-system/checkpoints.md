@@ -26,7 +26,7 @@ If you choose the latter approach, start with Checkpoint 1 and 2. Then download 
 
 ### Checkpoint 2: Validate User Inputs
 
-At this point it is not feasible to know whether or not the stock symbol input represents a real publicly-traded company. But do your best to perform some basic preliminary validations on the stock symbol, like making sure it is not numeric in nature, and making sure it resembles a stock symbol (i.e. less than around 6 characters, and no spaces).
+At this point it is not feasible to know whether or not the stock symbol input represents a real publicly-traded company. But do your best to perform some basic preliminary validations on the stock symbol, like making sure it is not numeric in nature, and making sure it resembles a stock symbol (i.e. less than around 6 characters, and no spaces). Hint: review the [documentation for string functions](https://docs.microsoft.com/en-us/dotnet/visual-basic/language-reference/functions/string-functions) to find one that will count the number of characters in a given string.
 
 If the input doesn't pass validations, display a message box to the user to help them fix the error, and stop the program's execution. Otherwise, optionally display a message box to let the user know the input has passed initial validations.
 
