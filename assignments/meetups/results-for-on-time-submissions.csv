@@ -1,0 +1,52 @@
+,weight:,0.1,0.35,0.55,1.0,,,,
+assignment-number,on-time,single-pdf,evidence-of-attendance,industry-insights,raw-score,meetups-count,interviews-count,final-score,comments
+3,1,1,1,1,1,2,0,1,
+4,1,1,1,1,1,2,0,1,
+21,1,1,1,1,1,2,0,1,
+22,1,1,1,1,1,2,0,1,evidence-disputability (1 of 2 RSVP OK w/ previous notice)
+27,1,1,1,1,1,2,0,1,
+29,1,1,1,1,1,2,0,1,
+35,1,1,1,1,1,2,0,1,
+42,1,1,1,1,1,2,0,1,
+43,1,1,1,1,1,3,0,1,"evidence-disputability (submission includes three events presented as interviews, with sufficient evidence for interviews and nearly-sufficient evidence for events OK)"
+47,1,1,1,1,1,2,0,1,
+26,1,0.5,0.9,1.15,0.9975,2,0,0.9975,file-not-single; file-not-pdf; evidence-disputability (1 of 2); insights-thoughtfulness++ (journal entry format and narrative style and length of narrative)
+41,1,1,0.95,1,0.9825,2,0,0.9825,"evidence-disputability (1 of 2, nearly-sufficient plus RSVP OK)"
+10,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+12,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+14,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+16,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+23,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+30,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+33,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+34,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+50,1,1,0.9,1,0.965,2,0,0.965,evidence-disputability (1 of 2)
+18,1,0.6,1,1,0.96,2,0,0.96,file-not-pdf; evidence-disputability (conference attendee badge OK)
+28,1,0.6,1,1,0.96,2,0,0.96,file-not-pdf
+46,1,0.6,1,1,0.96,2,0,0.96,file-not-pdf
+9,1,1,0.85,1,0.9475,2,0,0.9475,"evidence-disputability (2 of 2, however 1 of 2 includes contact info, which is sufficient evidence had this been an interview-style event)"
+7,1,1,0.8,1,0.93,2,0,0.93,evidence-presence (1 of 2)
+8,1,1,0.8,1,0.93,2,0,0.93,evidence-disputability (2 of 2)
+31,1,1,0.8,1,0.93,2,0,0.93,evidence-disputability (2 of 2)
+32,1,1,0.8,1,0.93,2,0,0.93,evidence-disputability (2 of 2)
+37,1,1,0.8,1,0.93,2,0,0.93,evidence-disputability (2 of 2)
+45,1,1,0.8,1,0.93,2,0,0.93,evidence-disputability (2 of 2)
+15,1,0.6,0.9,1,0.925,2,0,0.925,file-not-pdf; evidence-disputability (1 of 2)
+48,1,1,0.7,1,0.895,2,0,0.895,evidence-disputability (1 of 2); evidence-presence (1 of 2)
+17,1,1,1,1,1,1,0,0.8,
+19,1,1,1,1,1,1,0,0.8,
+24,1,1,1,1,1,1,0,0.8,
+25,1,1,1,1,1,1,0,0.8,
+5,1,0.6,1,1,0.96,1,0,0.768,file-not-pdf
+40,1,1,0.8,1,0.93,1,0,0.744,evidence-disputability (1 of 1)
+39,1,0.6,0.8,1,0.89,1,0,0.712,file-not-pdf; evidence-disputability (1 of 1)
+1,0,0,0,0,0,0,0,0,submission not yet received
+2,0,0,0,0,0,0,0,0,submission not yet received
+6,0,0,0,0,0,0,0,0,submission not yet received
+11,0,0,0,0,0,0,0,0,submission not yet received
+13,0,0,0,0,0,0,0,0,submission not yet received
+20,0,0,0,0,0,0,0,0,submission not yet received
+36,0,0,0,0,0,0,0,0,submission not yet received
+38,0,0,0,0,0,0,0,0,submission not yet received
+44,0,0,0,0,0,0,0,0,submission not yet received
+49,0,0,0,0,0,0,0,0,submission not yet received
