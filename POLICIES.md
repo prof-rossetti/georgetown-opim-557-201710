@@ -27,3 +27,19 @@ Any student requiring learning accommodations, such as longer exam periods, must
 ### Grades
 
 The Dean's office has mandated the maximum mean grade in this course should be 3.5. If this threshold is not met at the end of the semester, the professor reserves the right to curve all grades upward. If this threshold is exceeded at the end of the semester, the professor reserves the right to curve all grades downwards or bump-down the lowest numerical "A" grades to "A-".
+
+Further guidance from the Dean's office:
+
+> What constitutes an A, A-, B+, etc. is determined by each individual faculty member. Unlike most undergraduate programs, there is not a standard scale of numeric to letter grades. For example, 94% and above doesn't necessarily equate to an A, 90-93% doesn't necessarily equate to an A-, etc. Generally faculty will look at the final numeric grades as a whole and look for natural breaks. In other words, hopefully you will see a cluster of students that are at the top (As), slightly lower (A-), etc.
+>
+> #### GPA Scale
+
+> letter grade | GPA
+>  --- | ---
+>  A | 4.00
+>  A- | 3.67
+>  B+ | 3.33
+>  B | 3.00
+>  B- | 2.67
+>  C | 2.00
+>  F | 0.00
