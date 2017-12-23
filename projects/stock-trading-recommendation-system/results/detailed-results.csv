@@ -1,53 +1,53 @@
-weight:,0.04,0.15,0.17,0.07,0.13,0.08,0.15,0.15,0.06,1.00,
-category:,Submission,Information,Interface,Calculation,Information,Interface,Validation,Validation,Calculation,,
-project-id,file-name,inputs,ux,api-request,outputs-recommendation,outputs-data-sheets,prelim-validations,response-error-handling,algorithm,raw-score,comments
-30,1,1.2,1.3,1,1,1,1,1,1,1.081,inputs-preferences++; ux-controls-effects++; ux-explanations++
-9,0.9,1.2,1.1,1,1.2,1,1,1,1,1.069,file-name-capitalization; inputs-preferences++; ux-explanations++; outputs-charts++
-8,1,1.2,1,1,1.2,1.1,1,1,1,1.064,inputs-multiple-symbols++; data-sheet-formatting-usd++; outputs-charts++
-50,1,1,1.2,1,1.2,1,1,1,1,1.06,ux-images++; ux-explanations++; outputs-charts++
-33,1,1,1.1,1,1.2,1.1,1,1,1,1.051,ux-explanations++; outputs-charts++; data-sheet-formatting-usd++
-49,0.9,1.2,0.75,1,1.5,1,1,1,1,1.0485,"file-name-capitalization; inputs-multiple-symbols++; ux-instructions++ (disclaimer); ux-issues ('re-enter ticker' message displays improperly and prevents program execution - can't handle 'AMZN' symbol, other symbols OK); ux-issues (unhandled 'name is already taken' error on input re-tries); outputs-charts++; outputs-reports++"
-40,1,1.2,1.1,1,1,1,1,1,1,1.047,inputs-preferences++; ux-explanations++; prelim-validation (via prior lookups and request prevention OK); response-error-handling (via prior lookups and request prevention OK)
-10,1,1.2,1.1,1,1,1,1,1,1,1.047,inputs-multiple-symbols++; ux-explanations++
-15,1,1.2,1,1,1.1,1,1,1,1,1.043,inputs-preferences++; outputs-charts++; outputs-temporal-disconnect (reset button OK)
-27,0.9,1.2,1.1,1,1,1,1,1,1,1.043,file-name-capitalization; inputs-preferences++; ux-instructions++
-26,1,1.2,1,1,1,1.1,1,1,1,1.038,inputs-preferences++; data-sheet-formatting-usd++; ux (consider using a dropdown menu for selecting risk tolerance - OK)
-3,0.7,1,1.1,1,1.2,1,1,1,1,1.031,file-name-capitalization; file-name-characters (missing net id); ux-images++; outputs-charts++
-7,1,1.2,1,1,1,1,1,1,1,1.03,inputs-preferences++; ux (duplicate risk tolerance control); outputs-temporal-disconnect; outputs-charts++
-43,1,1,1.3,1,1,0.7,1,1,1,1.027,ux-explanations++; ux-username-personalization++; data-sheet-proliferation
-2,1,1,1.1,1,1,1.1,1,1,1,1.025,ux-explanations++; data-sheet-formatting-usd++
-21,1,1,0.9,1.5,1,1,1,1,1,1.018,ux-explanations++; ux-recommendation-usd-formatting; api-request-url-compilation-function++
-25,0.9,1.2,1.1,1,0.8,1,1,1,1,1.017,"inputs-multiple-symbols++; ux-explanations++; outputs-temporal-disconnect; prelim-validations (I encourage you to prevent request for an input like 'MSFT,AAPL', detecting comma and encouraging user to add a space, multiple symbols OK)"
-47,1,1,1.1,1,1,1,1,1,1,1.017,ux-explanations++
-11,1,1,1.1,1,1,1,1,1,1,1.017,ux-explanations++
-22,0.9,1.2,1.1,1,0.8,1,1,1,1,1.017,file-name-characters (extra); inputs-preferences++; ux-explanations++; outputs-temporal-disconnect
-31,0.9,1.2,1.1,1,1,0.85,1,0.9,1,1.016,file-name-capitalization; inputs-multiple-symbols++; ux-instructions++; ux-restrictions (fixed five inputs - handled OK); data-sheet-names; response-error-written-to-sheet (multiple symbols OK)
-12,0.9,1,1.1,1,1,1,1,1,1,1.013,file-name-capitalization; ux-explanations++; outputs-charts++; outputs-temporal-disconnect
-46,1,1,1,1,1,1,1,1,1,1,N/A - meets expectations
-13,0.9,1,0.85,1,1.2,1,1,1,1,0.9965,file-name-capitalization; ux-explanations++; outputs-charts++; ux (input box cancellation does not prevent request)
-6,0.9,1,1.1,1,0.8,1.1,1,1,1,0.995,file-name-capitalization; inputs-preferences++; inputs-duplicate-methods; ux-explanations++; data-sheet-formatting-usd++; outputs-temporal-disconnect
-14,0.8,1,1,1,1,1,1,1,1,0.992,file-name-capitalization; file-name-characters (wrong)
-19,0.9,1,1.1,1,0.8,1,1,1,1,0.987,file-name-capitalization; ux-explanations++; NOTE: I noticed code from last project in this workbook and did not evaluate it; response-error-handling (via prior lookups and request prevention OK); outputs-temporal-disconnect
-23,0.9,0.8,1.1,1,1,1,1,1,1,0.983,file-name-capitalization; inputs-duplicate-methods; ux-explanations++
-16,0.9,1,1.2,1,1.1,1,0.6,1,1,0.983,"file-name-capitalization; ux-symbol-context++; outputs-temporal-disconnect; outputs-charts++; prelim-validation (indication, but no request prevention)"
-35,1,1,0.8,1,1,1.1,1,1,1,0.974,ux-looks-familiar ('crunching' message); data-sheet-formatting-usd++
-1,1,1,0.8,1,1,1.1,1,1,1,0.974,ux-looks-familiar ('crunching' message); data-sheet-formatting-usd++
-24,0.9,1,0.8,1,1,1,1,1,1,0.962,file-name-capitalization; ux-looks-familiar ('crunching' message)
-4,0.9,1,0.8,1,1,1,1,1,1,0.962,file-name-characters (wrong); ux-recommendation-usd-formatting; outputs-temporal-disconnect; outputs-charts++
-34,0.9,1,0.85,1,0.9,1,1,1,1,0.9575,file-name-capitalization; ux-explanations++; outputs-temporal-disconnect (only during request or with invalid symbols OK); ux (input box cancellation does not prevent request)
-28,0.8,1,0.9,1,0.8,1.1,1,1,1,0.957,file-name-capitalization; file-name-characters (extra); data-sheet-formatting-usd++; outputs-temporal-disconnect; ux (not sure when request has completed)
-32,0.8,1.2,1.1,1,1,1,0.4,1,1,0.949,file-name-capitalization; file-name-characters (missing); inputs-preferences++; ux-explanations++; prelim-validation (no request prevention)
-20,1,1,0.65,1,1,1,1,1,1,0.9405,ux-explanations++; ux-looks-familiar ('crunching' message); ux (input box cancellation does not prevent request)
-44,0.9,1,1,1,1,1,0.4,1,1,0.906,file-name-characters (extra); prelim-validation (no request prevention)
-18,1,1.2,0.85,1,1,0.4,0.6,1,1,0.8965,inputs-multiple-symbols++; data-sheet (none); prelim-validations (attempted but not successful in preventing request for numeric input); ux (not sure when request has completed)
-5,1,0.8,0.55,1,1,1,1,1,1,0.8935,inputs-duplicate-methods; ux-looks-familiar ('crunching' message); ux (input box cancellation does not prevent request)
-29,1,1,0.9,1,1,1,0.4,1,1,0.893,ux-explanations++; ux-recommendation-usd-formatting; prelim-validation (no request prevention)
-48,1,1,0.8,1,1,1,0.4,1,1,0.876,ux (hard-coded $0 in recommendation message); prelim-validation (no request prevention)
-39,1,1,0.8,1,1,1,0.4,1,1,0.876,ux (input box cancellation does not prevent request); prelim-validation (no request prevention)
-17,0.7,0.8,0.45,1,1,1,1,1,1,0.8645,file-name-capitalization; file-name-characters (wrong and extra); inputs-duplicate-methods; ux (irrelevant button prompt); ux (input box cancellation does not prevent request); ux-recommendation-usd-formatting
-36,0.8,1,1,1,1,1,0.6,0.5,1,0.857,file-name-capitalization; file-name-characters (wrong); prelim-validation (message but no request prevention); response-error-unhandled (message OK)
-42,1,1,0.65,1,1.2,0.7,0.4,1,1,0.8525,inputs-duplicate-methods; inputs-multiple-symbols++; ux-explanations++; outputs-charts++; ux-recommendation-usd-formatting; ux (input box cancellation does not prevent request); data-sheets (multiple symbols on same sheet); prelim-validation (no request prevention)
-41,1,1,0.55,1,1,1,0.4,1,1,0.8335,ux-looks-familiar ('crunching' message); ux-recommendation-usd-formatting; prelim-validation (no request prevention)
-45,1,1,0.55,1,1,1,0.4,1,1,0.8335,ux-looks-familiar ('crunching' message); ux-recommendation-usd-formatting; prelim-validation (no request prevention)
-38,0.9,1,0.8,1,0.8,1,0.6,0.5,1,0.801,"file-name-characters (wrong); outputs-temporal-disconnect; prelim-validation (message but no request prevention); response-error-handling (does not prevent recommendation, message OK); ux-recommendation-usd-formatting"
-37,0.9,1,0,1,1.2,0.7,0.4,1,1,0.738,"file-name-characters (extra); inputs-multiple-symbols++; inputs-duplicate-methods; ux (your button is a picture, and has nothing to do with the code, needed to create a button for you to run your program, taking max ux deduction to prevent all other categories from being zeros as well); ux-restrictions (fixed two inputs - handled OK); ux-looks-familiar (message boxes); ux-explanations++; data-sheets (multiple symbols on same sheet); outputs-charts++ prelim-validation (no request prevention)"
+weight:,0.04,0.15,0.17,0.07,0.13,0.08,0.15,0.15,0.06,1.00,,,
+category:,Submission,Information,Interface,Calculation,Information,Interface,Validation,Validation,Calculation,,,,
+project-id,file-name,inputs,ux,api-request,outputs-recommendation,outputs-data-sheets,prelim-validations,response-error-handling,algorithm,raw-score,looks-familiar-adjustment,final-score,comments
+30,1,1.2,1.3,1,1,1,1,1,1,1.081,1,1.081,inputs-preferences++; ux-controls-effects++; ux-explanations++
+9,0.9,1.2,1.1,1,1.2,1,1,1,1,1.069,1,1.069,file-name-capitalization; inputs-preferences++; ux-explanations++; outputs-charts++
+8,1,1.2,1,1,1.2,1.1,1,1,1,1.064,1,1.064,inputs-multiple-symbols++; data-sheet-formatting-usd++; outputs-charts++;
+50,1,1,1.2,1,1.2,1,1,1,1,1.06,1,1.06,ux-images++; ux-explanations++; outputs-charts++
+33,1,1,1.1,1,1.2,1.1,1,1,1,1.051,1,1.051,ux-explanations++; outputs-charts++; data-sheet-formatting-usd++;
+49,0.9,1.2,0.75,1,1.5,1,1,1,1,1.0485,1,1.0485,"file-name-capitalization; inputs-multiple-symbols++; ux-instructions++ (disclaimer); ux-issues ('re-enter ticker' message displays improperly and prevents program execution - can't handle 'AMZN' symbol, other symbols OK); ux-issues (unhandled 'name is already taken' error on input re-tries); outputs-charts++; outputs-reports++"
+10,1,1.2,1.1,1,1,1,1,1,1,1.047,1,1.047,inputs-multiple-symbols++; ux-explanations++
+40,1,1.2,1.1,1,1,1,1,1,1,1.047,1,1.047,inputs-preferences++; ux-explanations++; prelim-validation (via prior lookups and request prevention OK); response-error-handling (via prior lookups and request prevention OK)
+27,0.9,1.2,1.1,1,1,1,1,1,1,1.043,1,1.043,file-name-capitalization; inputs-preferences++; ux-instructions++
+15,1,1.2,1,1,1.1,1,1,1,1,1.043,1,1.043,inputs-preferences++; outputs-charts++; outputs-temporal-disconnect (reset button OK)
+26,1,1.2,1,1,1,1.1,1,1,1,1.038,1,1.038,inputs-preferences++; data-sheet-formatting-usd++; ux (consider using a dropdown menu for selecting risk tolerance - OK)
+3,0.7,1,1.1,1,1.2,1,1,1,1,1.031,1,1.031,file-name-capitalization; file-name-characters (missing net id); ux-images++; outputs-charts++
+7,1,1.2,1,1,1,1,1,1,1,1.03,1,1.03,inputs-preferences++; ux (duplicate risk tolerance control); outputs-temporal-disconnect; outputs-charts++
+43,1,1,1.3,1,1,0.7,1,1,1,1.027,1,1.027,ux-explanations++; ux-username-personalization++; data-sheet-proliferation
+2,1,1,1.1,1,1,1.1,1,1,1,1.025,1,1.025,ux-explanations++; data-sheet-formatting-usd++
+21,1,1,0.9,1.5,1,1,1,1,1,1.018,1,1.018,ux-explanations++; ux-recommendation-usd-formatting; api-request-url-compilation-function++
+22,0.9,1.2,1.1,1,0.8,1,1,1,1,1.017,1,1.017,file-name-characters (extra); inputs-preferences++; ux-explanations++; outputs-temporal-disconnect;
+11,1,1,1.1,1,1,1,1,1,1,1.017,1,1.017,ux-explanations++
+47,1,1,1.1,1,1,1,1,1,1,1.017,1,1.017,ux-explanations++
+25,0.9,1.2,1.1,1,0.8,1,1,1,1,1.017,1,1.017,"inputs-multiple-symbols++; ux-explanations++; outputs-temporal-disconnect; prelim-validations (I encourage you to prevent request for an input like 'MSFT,AAPL', detecting comma and encouraging user to add a space, multiple symbols OK)"
+31,0.9,1.2,1.1,1,1,0.85,1,0.9,1,1.016,1,1.016,file-name-capitalization; inputs-multiple-symbols++; ux-instructions++; ux-restrictions (fixed five inputs - handled OK); data-sheet-names; response-error-written-to-sheet (multiple symbols OK)
+12,0.9,1,1.1,1,1,1,1,1,1,1.013,1,1.013,file-name-capitalization; ux-explanations++; outputs-charts++; outputs-temporal-disconnect;
+46,1,1,1,1,1,1,1,1,1,1,1,1,N/A - meets expectations
+13,0.9,1,0.85,1,1.2,1,1,1,1,0.9965,1,0.9965,file-name-capitalization; ux-explanations++; outputs-charts++; ux (input box cancellation does not prevent request)
+6,0.9,1,1.1,1,0.8,1.1,1,1,1,0.995,1,0.995,file-name-capitalization; inputs-preferences++; inputs-duplicate-methods; ux-explanations++; data-sheet-formatting-usd++; outputs-temporal-disconnect
+14,0.8,1,1,1,1,1,1,1,1,0.992,1,0.992,file-name-capitalization; file-name-characters (wrong)
+19,0.9,1,1.1,1,0.8,1,1,1,1,0.987,1,0.987,file-name-capitalization; ux-explanations++; NOTE: I noticed code from last project in this workbook and did not evaluate it; response-error-handling (via prior lookups and request prevention OK); outputs-temporal-disconnect;
+16,0.9,1,1.2,1,1.1,1,0.6,1,1,0.983,1,0.983,"file-name-capitalization; ux-symbol-context++; outputs-temporal-disconnect; outputs-charts++; prelim-validation (indication, but no request prevention)"
+23,0.9,0.8,1.1,1,1,1,1,1,1,0.983,1,0.983,file-name-capitalization; inputs-duplicate-methods; ux-explanations++
+1,1,1,0.8,1,1,1.1,1,1,1,0.974,1,0.974,ux-looks-familiar ('crunching' message); data-sheet-formatting-usd++
+35,1,1,0.8,1,1,1.1,1,1,1,0.974,1,0.974,ux-looks-familiar ('crunching' message); data-sheet-formatting-usd++
+4,0.9,1,0.8,1,1,1,1,1,1,0.962,1,0.962,file-name-characters (wrong); ux-recommendation-usd-formatting; outputs-temporal-disconnect; outputs-charts++
+24,0.9,1,0.8,1,1,1,1,1,1,0.962,1,0.962,file-name-capitalization; ux-looks-familiar ('crunching' message);
+34,0.9,1,0.85,1,0.9,1,1,1,1,0.9575,1,0.9575,file-name-capitalization; ux-explanations++; outputs-temporal-disconnect (only during request or with invalid symbols OK); ux (input box cancellation does not prevent request)
+28,0.8,1,0.9,1,0.8,1.1,1,1,1,0.957,1,0.957,file-name-capitalization; file-name-characters (extra); data-sheet-formatting-usd++; outputs-temporal-disconnect; ux (not sure when request has completed)
+32,0.8,1.2,1.1,1,1,1,0.4,1,1,0.949,1,0.949,file-name-capitalization; file-name-characters (missing); inputs-preferences++; ux-explanations++; prelim-validation (no request prevention);
+20,1,1,0.65,1,1,1,1,1,1,0.9405,1,0.9405,ux-explanations++; ux-looks-familiar ('crunching' message); ux (input box cancellation does not prevent request);
+44,0.9,1,1,1,1,1,0.4,1,1,0.906,1,0.906,file-name-characters (extra); prelim-validation (no request prevention)
+18,1,1.2,0.85,1,1,0.4,0.6,1,1,0.8965,1,0.8965,inputs-multiple-symbols++; data-sheet (none); prelim-validations (attempted but not successful in preventing request for numeric input); ux (not sure when request has completed);
+5,1,0.8,0.55,1,1,1,1,1,1,0.8935,1,0.8935,inputs-duplicate-methods; ux-looks-familiar ('crunching' message); ux (input box cancellation does not prevent request)
+29,1,1,0.9,1,1,1,0.4,1,1,0.893,1,0.893,ux-explanations++; ux-recommendation-usd-formatting; prelim-validation (no request prevention);
+39,1,1,0.8,1,1,1,0.4,1,1,0.876,1,0.876,ux (input box cancellation does not prevent request); prelim-validation (no request prevention);
+48,1,1,0.8,1,1,1,0.4,1,1,0.876,1,0.876,ux (hard-coded $0 in recommendation message); prelim-validation (no request prevention);
+17,0.7,0.8,0.45,1,1,1,1,1,1,0.8645,0.85,0.734825,file-name-capitalization; file-name-characters (wrong and extra); inputs-duplicate-methods; ux (irrelevant button prompt); ux (input box cancellation does not prevent request); ux-recommendation-usd-formatting;
+36,0.8,1,1,1,1,1,0.6,0.5,1,0.857,1,0.857,file-name-capitalization; file-name-characters (wrong); prelim-validation (message but no request prevention); response-error-unhandled (message OK)
+42,1,1,0.65,1,1.2,0.7,0.4,1,1,0.8525,0.5,0.42625,inputs-duplicate-methods; inputs-multiple-symbols++; ux-explanations++; outputs-charts++; ux-recommendation-usd-formatting; ux (input box cancellation does not prevent request); data-sheets (multiple symbols on same sheet); prelim-validation (no request prevention); looks-familiar (potential academic integrity infraction)
+45,1,1,0.55,1,1,1,0.4,1,1,0.8335,1,0.8335,ux-looks-familiar ('crunching' message); ux-recommendation-usd-formatting; prelim-validation (no request prevention);
+41,1,1,0.55,1,1,1,0.4,1,1,0.8335,1,0.8335,ux-looks-familiar ('crunching' message); ux-recommendation-usd-formatting; prelim-validation (no request prevention);
+38,0.9,1,0.8,1,0.8,1,0.6,0.5,1,0.801,1,0.801,"file-name-characters (wrong); outputs-temporal-disconnect; prelim-validation (message but no request prevention); response-error-handling (does not prevent recommendation, message OK); ux-recommendation-usd-formatting;"
+37,0.9,1,0,1,1.2,0.7,0.4,1,1,0.738,0,0,"file-name-characters (extra); inputs-multiple-symbols++; inputs-duplicate-methods; ux (your button is a picture, and has nothing to do with the code, needed to create a button for you to run your program, taking max ux deduction to prevent all other categories from being zeros as well); ux-restrictions (fixed two inputs - handled OK); ux-looks-familiar (message boxes); ux-explanations++; data-sheets (multiple symbols on same sheet); outputs-charts++; prelim-validation (no request prevention); looks-familiar (potential academic integrity infraction)"
