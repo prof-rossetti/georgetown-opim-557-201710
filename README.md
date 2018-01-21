@@ -55,7 +55,7 @@ name | weight | due date(s)
 [Timesheets](/assignments/timesheets.md) | 12% (2% each) | 2017-10-29, <br> 2017-11-05, <br> 2017-11-12, <br> 2017-11-19, <br> 2017-11-26, <br> 2017-12-03
 [Project 1 - Retirement Savings Calculator](/projects/savings-calculator/project.md) | 35% | 2017-11-17
 [Meetups Assignment](/assignments/meetups.md) | 15% | 2017-12-01
-Project 2 - Stock Trading Recommendation System | 35% | 2017-12-08
+[Project 2 - Stock Trading Recommendation System](https://github.com/prof-rossetti/georgetown-opim-557-20-201710/blob/master/projects/stock-trading-recommendation-system/project.md) | 35% | 2017-12-08
 
 ## Operations
 
